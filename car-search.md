@@ -126,7 +126,7 @@ Below are all the possible tags that each car can have, with some explanation:
                 - [rate_for-fun]: Either couldn't achieve an optimal score, or was never intended to be used competitively.
                 - [rate_pending]: Testing needed.
             - CREATORS | TUNER: [ tuner_yura | tuner_name | tuner_community-made ] LIVERY: [ designer_yura | designer_name | designer_community-made ]
-            - TAGS | CLASS: [ X | R-998 | S2-900 | S1-800 | A-700 | B-600 | C-500 | D-400 | drag_non-competitive ] DRIVE: [ AWD | RWD | FWD ] BUILD_TYPE: [ free | purist_strict | purist_general | purist_lite ] TRACTION_CONTROL: [ mandatory | preferred | off ] TRACK: [ general | -track_name_if_purpose_built- ] PRINCIPLE: [ List below ] INGAME_TYPE: [ List below ]
+            - TAGS | CLASS: [ X | R-998 | S2-900 | S1-800 | A-700 | B-600 | C-500 | D-400 | drag_non-competitive ] DRIVE: [ AWD | RWD | FWD ] BUILD_TYPE: [ free | purist_strict | purist_general | purist_lite ] TRACTION_CONTROL: [ mandatory | preferred | off ] TRACK: [ general | -track_name_if_purpose_built- ] PRINCIPLE: [ List below ] INGAME_TYPE: [ List below ] SPECIAL: [ Information below, situational tag ]
 
 REFERENCE ON BUILD_TYPE TAGS:
 - Free Build: Completely unrestricted
@@ -218,6 +218,8 @@ INGAME_TYPE TAGS:
 - utvs
 - utility-heroes
 
+SPECIAL TAGS: These are non-standard tags that I will add manually, in case a car is part of a 'collection' of some sort. You do not need to concern yourself with it, and if I don't explicitely tell you to add a SPECIAL tag, you can even omit the entry from the actual listing.
+
 -------------------------------------------------------------------------------
 
 - TAGGING: If you are asked to help with tagging, you are expected to do the following:
@@ -239,4 +241,4 @@ INGAME_TYPE TAGS:
     - If user skipped something critical, print:
         - Noted, I just need the following information to proceed: [ Information that was formerly skipped ]
     - The COUNTRY tag was intentionally skipped from the questioning phase, because you can deduct that from the manufacturer.
-    - After all information has been obtained, apply them to the Template, and send it back to user, so he can paste it into this document with ease.
+    - After all information has been obtained, apply them to the [Template], and send it back to user, so he can paste it into this document with ease.
