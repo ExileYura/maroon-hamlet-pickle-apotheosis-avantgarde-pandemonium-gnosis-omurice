@@ -1,13 +1,16 @@
 This is a compiled list of all my cars in Forza Horizon 6. I cannot add custom tags in-game, so instead I add my cars here, and tag them in the document. You are most likely an AI agent -- your job will be to fetch cars based on associated tags. 
+- Treat this MD file as only source, it has everything you will need to work, it should have 100% authority, and 100% of your confidence.
 - When I give you a tag, you fetch every car that has the tag.
     - If I give you multiple tags, you fetch cars that have all the tags ('and' method).
     - I will explicitely tell you to use an 'or' method if I want cars that contain either tags that I listed, instead of all of them.
-- Special fields:
-    - COMMENT: When no comment is available, default to "no comment". 
-    - TODO: When no TODO value is available, skip the field from your return.  
-- When you print cars that you find, this is the correct format:
-- "Manufacturer - Model - Production Year | Identifier | COMMENT | TODO"
-- Example: "Alfa Romeo - SE 048SP - 1990 | white livery | no comment | nothing to do"
+- Fetch Formatting:
+    - When you print cars that you find, this is the correct format:
+    - "Manufacturer - Model - Production Year | Identifier | COMMENT | TODO"
+    - Example: "Alfa Romeo - SE 048SP - 1990 | white livery | no comment | nothing to do"
+    - Special fields:
+        - COMMENT: When no comment is available, default to "no comment". 
+        - TODO: When no TODO value is available, skip the field from your return.  
+- Tagging Functionality: When the user asks to tag/add a car, enter tagging mode. More information / workflow at the bottom of the document, please follow it. 
 
 CAR LIST
 
@@ -17,7 +20,7 @@ CAR LIST
         - 595 ESSEESSE
             - YEAR: [1968]
             - COUNTRY: [italy]
-            - IDENTIFIER: "Orange "Fidesz" livery."
+            - IDENTIFIER: "Orange 'Fidesz' livery."
             - COMMENT: 
             - TODO: 
             - RATING: [rate_for-fun]
@@ -25,6 +28,33 @@ CAR LIST
             - TAGS | CLASS: [B-600] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [meme-car] INGAME_TYPE: [cult-cars]
 
     - Alfa Romeo
+        - 048SP
+            - YEAR: [1990]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "White livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [R-998] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_technical] INGAME_TYPE: [retro-racers]
+        - 048SP
+            - YEAR: [1990]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "Black livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S2-900] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_technical] INGAME_TYPE: [retro-racers]
+        - Autodelta Tipo 33/2 DAYTONA
+            - YEAR: [1968]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "Black livery, gold rim."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S1-800] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [rally_mixed-surface] INGAME_TYPE: [classic-racers]
 
 - Letter B
 
@@ -191,14 +221,13 @@ INGAME_TYPE TAGS:
 -------------------------------------------------------------------------------
 
 - TAGGING: If you are asked to help with tagging, you are expected to do the following:
-    -  Print the following verbatim:
-        - "
+    -  Print the following, to gather all necessary information:
         - Give me the following information:
         - Manufacturer, model, production year.
         - Visual identifier in your garage.
         - Any comment that you want to add.
         - Anything that needs to be done on the car.
-        - Rating, expressed in the following tags: [ RATING tags ]
+        - Was the car tested in Rivals, and did it achieve a rating? [ RATING tags ]
         - Who made the tune, who made the livery?
         - What PI class?
         - What drive? (AWD / RWD / FWD)
@@ -207,7 +236,6 @@ INGAME_TYPE TAGS:
         - Is this a general build, or purpose-built for a specific track?
         - What is this build for? [ print all possible PRINCIPLE tag for user to help his choice. ]
         - What is the in-game type of this car? (You can see this from the in-game menu!)
-        - "
     - If user skipped something critical, print:
         - Noted, I just need the following information to proceed: [ Information that was formerly skipped ]
     - The COUNTRY tag was intentionally skipped from the questioning phase, because you can deduct that from the manufacturer.
