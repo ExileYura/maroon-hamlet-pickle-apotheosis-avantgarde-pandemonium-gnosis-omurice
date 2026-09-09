@@ -83,6 +83,35 @@ CAR LIST
             - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
             - TAGS | CLASS: [S1-800] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [rally_mixed-surface] INGAME_TYPE: [classic-racers]
 
+    - Audi
+        - R8 Coupé V10 Plus 5.2 FSI Quattro
+            - YEAR: [2013]
+            - COUNTRY: [germany]
+            - IDENTIFIER: "Pure white livery."
+            - COMMENT:
+            - TODO: "Understeers badly — can't fix via tuning alone. Try converting to RWD or dropping to PI 800."
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S2-900] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_speed-highway] INGAME_TYPE: [modern-supercars]
+        - RS 4
+            - YEAR: [2006]
+            - COUNTRY: [germany]
+            - IDENTIFIER: "Black and white AUDI livery."
+            - COMMENT:
+            - TODO: "Needs some fine-tuning — not urgent."
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_community-made]
+            - TAGS | CLASS: [A-700] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [snow_purpose-built] INGAME_TYPE: -[modern-super-saloons]
+        - RS 4 Avant
+            - YEAR: [2001]
+            - COUNTRY: [germany]
+            - IDENTIFIER: "Simple green paint."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [A-700] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [rally_mixed-surface | cross-country_competent | snow_competent] INGAME_TYPE: [modern-super-saloons]
+
 - Letter B
 
 - Letter C
@@ -100,6 +129,44 @@ CAR LIST
 - Letter I
 
 - Letter J
+
+    - Jaguar
+        - XJ-S FE
+            - YEAR: [1990]
+            - COUNTRY: [england]
+            - IDENTIFIER: "White with black accents livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S1-800] DRIVE: [RWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drift_appropriate-rwd] INGAME_TYPE: [drift-cars]
+        - XJ-S FE
+            - YEAR: [1990]
+            - COUNTRY: [england]
+            - IDENTIFIER: "Black with red accents livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S2-900] DRIVE: [RWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drift_appropriate-rwd] INGAME_TYPE: [drift-cars]
+        - XJ-S FE
+            - YEAR: [1990]
+            - COUNTRY: [england]
+            - IDENTIFIER: "Black with white accents livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [R-998] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drift_point-drifting-awd] INGAME_TYPE: [drift-cars]
+        - XJ-S FE
+            - YEAR: [1990]
+            - COUNTRY: [england]
+            - IDENTIFIER: "Red livery with dark red flag."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [drag_non-competitive] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drag_long-strip] INGAME_TYPE: [drift-cars]
 
 - Letter K
 
@@ -259,7 +326,7 @@ SPECIAL TAGS: These are non-standard tags that I will add manually, in case a ca
         - Tuner / Designer?
         - PI class?
         - AWD / RWD / FWD?
-        - Purist or Regular Build? (I will print parameters for each purist classification if required!)
+        - Purist or Free Build? (I will print parameters for each purist classification if required!)
         - Traction Control?
         - General purpose, or purpose-built to a track?
         - Principle?
