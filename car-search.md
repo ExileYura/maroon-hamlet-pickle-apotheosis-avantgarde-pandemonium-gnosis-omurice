@@ -226,18 +226,17 @@ SPECIAL TAGS: These are non-standard tags that I will add manually, in case a ca
     -  Print the following, to gather all necessary information:
         - Give me the following information:
         - Manufacturer, model, production year.
-        - Visual identifier in your garage.
-        - Any comment that you want to add.
-        - Anything that needs to be done on the car.
-        - Was the car tested in Rivals, and did it achieve a rating? [ RATING tags ]
-        - Who made the tune, who made the livery?
-        - What PI class?
-        - What drive? (AWD / RWD / FWD)
-        - Is your build a purist, or a regular build? (I will print you the parameters for each purist classification if required!)
-        - Do you prefer traction control off, on, or is it mandatory?
-        - Is this a general build, or purpose-built for a specific track?
-        - What is this build for? [ print all possible PRINCIPLE tag for user to help his choice. ]
-        - What is the in-game type of this car? (You can see this from the in-game menu!)
+        - Visual identifier in garage.
+        - Comment / TODO (optional)
+        - Rivals testing state / score? Possible rating tags: [RATING_array]
+        - Tuner / Designer?
+        - PI class?
+        - AWD / RWD / FWD?
+        - Purist or Regular Build? (I will print parameters for each purist classification if required!)
+        - Traction Control?
+        - General purpose, or purpose-built to a track?
+        - Principle?
+        - Ingame Type?
     - If user skipped something critical, print:
         - Noted, I just need the following information to proceed: [ Information that was formerly skipped ]
     - The COUNTRY tag was intentionally skipped from the questioning phase, because you can deduct that from the manufacturer.
