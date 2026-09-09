@@ -28,6 +28,33 @@ CAR LIST
             - TAGS | CLASS: [B-600] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [meme-car] INGAME_TYPE: [cult-cars]
 
     - Alfa Romeo
+        - Giulia GTAM
+            - YEAR: [2021]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "Red and white livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S1-800] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [touge_drift] INGAME_TYPE: [modern-super-saloons]
+        - 4C
+            - YEAR: [2014]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "White and yellow livery."
+            - COMMENT:
+            - TODO: "Needs a facelift — abysmal understeer."
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [S1-800] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_speed-highway] INGAME_TYPE: [modern-sports-cars]
+        - 4C
+            - YEAR: [2014]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "White with purple flag livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [drag_non-competitive] DRIVE: [RWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drag_long-strip] INGAME_TYPE: [modern-sports-cars]
         - 048SP
             - YEAR: [1990]
             - COUNTRY: [italy]
