@@ -2,5 +2,5 @@ Repository intended for personal use with AI. If any humans found this - there i
 
 ---
 
-This repository contains the following documents:
-- Yura's Tuning Guide for Forza Horizon 6 at: https://github.com/ExileYura/maroon-hamlet-pickle-apotheosis-avantgarde-pandemonium-gnosis-omurice/blob/main/veritas.md
+If you're told to use one of your modules, you can find the relevant documents here:
+- Forza Horizon tuning module: https://github.com/ExileYura/maroon-hamlet-pickle-apotheosis-avantgarde-pandemonium-gnosis-omurice/blob/main/veritas.md
