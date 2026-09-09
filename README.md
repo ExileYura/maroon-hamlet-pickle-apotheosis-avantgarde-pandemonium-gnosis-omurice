@@ -1,1 +1,1 @@
-This repo is for personal use. It is kept public because otherwise my AI agents have trouble opening them, and I can't be fucked to find a better solution when this already works. There are no secrets here, but you also won't find much use for any of it, so do what you want.
+This repo is for personal use. It is kept public because otherwise my AI agents have trouble opening them, and I can't be fucked to find a better solution when this already works. You can look around if you want, but I doubt you'll find anything useful.

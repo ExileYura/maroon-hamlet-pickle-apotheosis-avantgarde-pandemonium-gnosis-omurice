@@ -227,7 +227,7 @@ SPECIAL TAGS: These are non-standard tags that I will add manually, in case a ca
         - Give me the following information:
         - Manufacturer, model, production year.
         - Visual identifier in garage.
-        - Comment / TODO (optional)
+        - Comment / TODO (optional, skipped if unspecified)
         - Rivals testing state / score? Possible rating tags: [RATING_array]
         - Tuner / Designer?
         - PI class?
