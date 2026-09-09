@@ -1,6 +1,1 @@
-Repository intended for personal use with AI. If any humans found this - there is nothing for you here.
-
----
-
-If you're told to use one of your modules, you can find the relevant documents here:
-- Forza Horizon tuning module: https://github.com/ExileYura/maroon-hamlet-pickle-apotheosis-avantgarde-pandemonium-gnosis-omurice/blob/main/veritas.md
+This repo is for personal use. It is kept public because otherwise my AI agents have trouble opening them, and I can't be fucked to find a better solution when this already works. There are no secrets here, but you also won't find much use for any of it, so do what you want.
