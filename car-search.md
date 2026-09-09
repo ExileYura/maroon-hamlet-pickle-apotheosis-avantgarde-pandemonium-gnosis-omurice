@@ -15,15 +15,14 @@ CAR LIST
 
     - Abarth
         - 595 ESSEESSE
-            - YEAR: 1968
-            - COUNTRY: Italy
-            - IDENTIFIER: Orange "Fidesz" livery.
-            - COMMENT: ""
-            - TODO: ""
-            - RATING: 
-            - CREATORS | TUNER: [] LIVERY: []
-            - TAGS | CLASS: [] DRIVE: [] BUILD_TYPE: [] TRACTION_CONTROL: [] TRACK: [] PRINCIPLE: [] INGAME_TYPE: []
-
+            - YEAR: [1968]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "Orange "Fidesz" livery."
+            - COMMENT: 
+            - TODO: 
+            - RATING: [rate_for-fun]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [B-600] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [meme-car] INGAME_TYPE: [cult-cars]
 
     - Alfa Romeo
 
@@ -84,18 +83,18 @@ Below are all the possible tags that each car can have, with some explanation:
 - [Template]
     - Manufacturer 
         - Model
-            - YEAR: -any-
-            - COUNTRY: -any-
-            - IDENTIFIER: This refers to the in-game livery I use on the car, so it's easy to pick out which one we're talking about in case I have multiple of the same model.
+            - YEAR: [-any-]
+            - COUNTRY: [-any-]
+            - IDENTIFIER: "This refers to the in-game livery I use on the car, so it's easy to pick out which one we're talking about in case I have multiple of the same model."
             - COMMENT: ""
             - TODO: ""
             - RATING: 
                 - Refers to the rating the car has based on achievement.
-                - meta: Achieved top 0.5% score on Rivals leaderboard.
-                - epic: Achieved top 2% score on Rivals leaderboard.
-                - competitive: Achieved top 5% score on Rivals leaderboard.
-                - for_fun: Either couldn't achieve an optimal score, or was never intended to be used competitively.
-                - pending: Testing needed.
+                - [rate_meta]: Achieved top 0.5% score on Rivals leaderboard.
+                - [rate_epic]: Achieved top 2% score on Rivals leaderboard.
+                - [rate_competitive]: Achieved top 5% score on Rivals leaderboard.
+                - [rate_for-fun]: Either couldn't achieve an optimal score, or was never intended to be used competitively.
+                - [rate_pending]: Testing needed.
             - CREATORS | TUNER: [ tuner_yura | tuner_name | tuner_community-made ] LIVERY: [ designer_yura | designer_name | designer_community-made ]
             - TAGS | CLASS: [ X | R-998 | S2-900 | S1-800 | A-700 | B-600 | C-500 | D-400 | drag_non-competitive ] DRIVE: [ AWD | RWD | FWD ] BUILD_TYPE: [ free | purist_strict | purist_general | purist_lite ] TRACTION_CONTROL: [ mandatory | preferred | off ] TRACK: [ general | -track_name_if_purpose_built- ] PRINCIPLE: [ List below ] INGAME_TYPE: [ List below ]
 
@@ -147,6 +146,8 @@ PRINCIPLE TAGS:
 - cross-country_competent (Usually cars built for rally, that are also competent in cross country, but it is not their primary role.)
 - snow_purpose-built
 - snow_competent (Cars that are either rally or cross country can have this complementary tag in case they can handle snow.)
+
+- meme-car (Doesn't have to have any 'purpose' -- it's usually kept because it has a funny livery or functionality.)
 
 INGAME_TYPE TAGS:
 - buggies
