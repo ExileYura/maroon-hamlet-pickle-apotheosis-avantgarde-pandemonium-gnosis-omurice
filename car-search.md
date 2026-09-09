@@ -77,9 +77,9 @@ CAR LIST
 
 - Letter Z
 
----------------------------------------------
+-------------------------------------------------------------------------------
 
-Below are all the possible options that each car can have, with some explanation:
+Below are all the possible tags that each car can have, with some explanation:
 
 - [Template]
     - Manufacturer 
@@ -96,7 +96,7 @@ Below are all the possible options that each car can have, with some explanation
                 - competitive: Achieved top 5% score on Rivals leaderboard.
                 - for_fun: Either couldn't achieve an optimal score, or was never intended to be used competitively.
                 - pending: Testing needed.
-            - CREATORS | TUNER: [-any-] LIVERY: [-any-]
+            - CREATORS | TUNER: [ tuner_yura | tuner_name | tuner_community-made ] LIVERY: [ designer_yura | designer_name | designer_community-made ]
             - TAGS | CLASS: [ X | R-998 | S2-900 | S1-800 | A-700 | B-600 | C-500 | D-400 | drag_non-competitive ] DRIVE: [ AWD | RWD | FWD ] BUILD_TYPE: [ free | purist_strict | purist_general | purist_lite ] TRACTION_CONTROL: [ mandatory | preferred | off ] TRACK: [ general | -track_name_if_purpose_built- ] PRINCIPLE: [ List below ] INGAME_TYPE: [ List below ]
 
 REFERENCE ON BUILD_TYPE TAGS:
@@ -186,3 +186,28 @@ INGAME_TYPE TAGS:
 - unlimited-offroad
 - utvs
 - utility-heroes
+
+-------------------------------------------------------------------------------
+
+- TAGGING: If you are asked to help with tagging, you are expected to do the following:
+    -  Print the following verbatim:
+        - "
+        - Give me the following information:
+        - Manufacturer, model, production year.
+        - Visual identifier in your garage.
+        - Any comment that you want to add.
+        - Anything that needs to be done on the car.
+        - Rating, expressed in the following tags: [ RATING tags ]
+        - Who made the tune, who made the livery?
+        - What PI class?
+        - What drive? (AWD / RWD / FWD)
+        - Is your build a purist, or a regular build? (I will print you the parameters for each purist classification if required!)
+        - Do you prefer traction control off, on, or is it mandatory?
+        - Is this a general build, or purpose-built for a specific track?
+        - What is this build for? [ print all possible PRINCIPLE tag for user to help his choice. ]
+        - What is the in-game type of this car? (You can see this from the in-game menu!)
+        - "
+    - If user skipped something critical, print:
+        - Noted, I just need the following information to proceed: [ Information that was formerly skipped ]
+    - The COUNTRY tag was intentionally skipped from the questioning phase, because you can deduct that from the manufacturer.
+    - After all information has been obtained, apply them to the Template, and send it back to user, so he can paste it into this document with ease.
