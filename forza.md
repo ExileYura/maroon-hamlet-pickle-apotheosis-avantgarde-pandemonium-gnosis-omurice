@@ -3759,35 +3759,21 @@ This is an easy-access location to store all my favorite colors.
 ! [Yura's Trademarked Liveries] !
 
 - The Golden Boy
-
-  - This is a minimalist livery, originally born on the Temerario. This
-    livery will look best on cars that are less curvy, like
-    Lamborghinis, due to the style of the mask.
-
-  - Base color is Brass Brushed, use on body and wing.
-
-  - On mirrors: Metallic Glitter -- 0.83 | 0.04 | 0.09 || 0.13 |
-    0.40 | 0.51
-
-    - Optionally use Matte Black on the mirrors.
-
-  - On window: 0.11 | 0.22 | 1.00
-
-  - On rims: 0.00 | 0.00 | 0.00 || 0.11 | 0.50 | 1.00
-
-  - Cover everything in livery, EXCEPT the rear end of the car. The rear
-    end can also (fully or partially) be colored in case of cars where
-    it looks better, but the original Temerario liked no color better
-    there.
-
-    - Version I livery is the darkest black, material in the center (but
-      pulling it a little towards Matte is acceptable).
-
-  - Lastly, there is a mask saved as "Golden Boy", this needs to be
-    applied to the sides and top.
-
-  - Apply a square mask to the front end of the car that connects to the
-    hood livery.
+  - Trivia: This is a minimalist livery, originally born on the Temerario. This livery will look best on cars that are less curvy, like Lamborghinis, due to the style of the mask.
+  - Workflow:
+    - Apply color "Brass Brushed" on body and spoiler.
+    - On mirrors: 
+      - Matte Black.
+      - Older variation: Metallic Glitter -- 0.83 | 0.04 | 0.09 || 0.13 | 0.40 | 0.51
+    - On window: 0.11 | 0.22 | 1.00
+    - On rims and brakes: Metallic Glitter -- 0.00 | 0.00 | 0.00 || 0.11 | 0.50 | 1.00
+    - Cover all sides of the car in black livery. 
+      - The rear is optional, and recommend in original color.
+      - The front is optional, and recommended in livery.
+      - These two depend entirely on what looks best. 
+      - In case the front has black livery, you might need to connect the livery starting on the hood to the bottom of the front bumper with a masked rectangle. 
+    - Apply the livery set saved as "Golden Boy", apply the contained masks. Make sure to resize and fit them properly. (Hood and roof elements are intentionally tilted slightly to the right).
+    - Vinyl Material slider can be set in a variety of ways. I like to move it slightly towards matte, where the brushed texture is still visible, and it's still a little shiny, but it's quite matte looking. This is about 45% of the slider. There is no standardized value for this.
 
 - Despair
 
