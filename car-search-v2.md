@@ -185,6 +185,17 @@ CAR LIST
             - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
             - TAGS | CLASS: [R-998] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_technical] INGAME_TYPE: [hypercars]
 
+    - Mitsubishi
+        - Lancer Evolution VIII MR
+            - YEAR: [2004]
+            - COUNTRY: [japan]
+            - IDENTIFIER: "Need For Speed #9 Earl Livery."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_community-made]
+            - TAGS | CLASS: [A-700] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [rally_mixed-surface | snow_competent | cross-country_competent] INGAME_TYPE: [modern-rally] SPECIAL: [collection-livery_most-wanted_9-earl]
+
 - Letter N
 
 - Letter O
