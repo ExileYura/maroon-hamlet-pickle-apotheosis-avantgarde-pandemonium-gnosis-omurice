@@ -122,6 +122,17 @@ CAR LIST
 
 - Letter F
 
+    - Ford
+        - Mustang GT 2+2 Fastback FE
+            - YEAR: [1968]
+            - COUNTRY: [usa]
+            - IDENTIFIER: "Pending."
+            - COMMENT:
+            - TODO: "Make livery."
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_ChromeProto517] LIVERY: []
+            - TAGS | CLASS: [S2-900] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drift_point-drifting-awd] INGAME_TYPE: [drift-cars]
+
 - Letter G
 
 - Letter H
@@ -171,6 +182,17 @@ CAR LIST
 - Letter K
 
 - Letter L
+
+    - Lamborghini
+        - Aventador SVJ
+            - YEAR: [2018]
+            - COUNTRY: [italy]
+            - IDENTIFIER: "Pending."
+            - COMMENT:
+            - TODO: "Make livery."
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_IOnceWasYou] LIVERY: []
+            - TAGS | CLASS: [R-998] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [drift_point-drifting-awd] INGAME_TYPE: [hypercars]
 
 - Letter M
 
