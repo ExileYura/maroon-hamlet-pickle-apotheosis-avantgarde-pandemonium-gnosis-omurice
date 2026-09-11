@@ -174,6 +174,17 @@ CAR LIST
 
 - Letter M
 
+    - McLaren
+        - W1
+            - YEAR: [2025]
+            - COUNTRY: [england]
+            - IDENTIFIER: "Two-tone blue paint."
+            - COMMENT:
+            - TODO:
+            - RATING: [rate_pending]
+            - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_yura]
+            - TAGS | CLASS: [R-998] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_technical] INGAME_TYPE: [hypercars]
+
 - Letter N
 
 - Letter O
