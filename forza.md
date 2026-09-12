@@ -1,5 +1,10 @@
 # WELCOME
 
+| Setting | Front | Rear |
+|---|---:|---:|
+| Tire Pressure | 28.0 | 27.5 |
+| Camber | -2.0 | -1.5 |
+
 This is a document that includes information for an AI model. If you are a human, you don't need to keep reading -- just send this to your preferred AI assistant and he will know what to do. The document's goal is to aid in tuning cars in Forza Horizon 6. It is a compilation of information, good practices, guides, building, tuning, troubleshooting -- all tailored to be usable for an AI assistant to assist in a variety of things. The author of this document is ExileYura, and his information should have priority in case of inconsistencies.
 
 # AI Workflow
@@ -1507,21 +1512,14 @@ Tuning
 # ExileYura's Awesome Drift Guide
 
 Information
+- There are three types of drift builds I differentiate. 
+  1) Regular Drifting: RWD, respect+, community, style. 
+  2) Point Drifting: AWD, drag compound, sweat, leaderboards, first-degree embarrassment. 
+  3) A median of the two - Powerslide Drifting: AWD, normal compounds, a little dishonorable, buttery-smooth slides, good times. 
+  - This particular guide only discusses the first - Regular Drifting; the other two are below in the non-regular guides.
 
-- There are two types of drifting in the game. Drifting (rwd, good
-  vibes, community, style) and Point Drifting (awd, drag compound,
-  leaderboards, first-degree embarrassment). This guide will discuss
-  exclusively the regular drifting.
-
-- In FH6 specifically, we're building drift cars to PI. While in
-  previous entries in the franchise, drift cars were only used for stunt
-  zones and playlist events, in 6 they can also participate in online
-  competitions and drift-attacks, where PI matters.
-
-  - That said, installing random parts just to hit a PI score might
-    introduce problems or detrimental features in the car -- it is not a
-    huge issue if you cannot reach the exact top of your class, just try
-    to get as close as possible.
+- In FH6 specifically, we're building drift cars to PI. While in previous entries in the franchise, drift cars were only used for stunt zones and playlist events, in 6 they can also participate in online competitions and drift-attacks, where PI matters.
+  - That said, installing random parts just to hit a PI score might introduce problems or detrimental features in the car -- it is not a huge issue if you cannot reach the exact top of your class, just try to get as close as possible.
 
 Car Choice
 
@@ -2721,7 +2719,9 @@ Tuning:
 - If we run Brakes, moving balance to front by about 5 to 10, and
   increasing pressure by 10-20 is great on most cars.
 
-# ExileYura's Point Drifting Guide
+# ExileYura's Powerslide Drifting Guide
+- Very early-stage, information-gathering is in progress. Refer to Touge and RWD drift guides to fill in missing information. 
+- This principle is the retarded little brother that you love, regardless of his limitations. It is very fun, but maybe don't tell anyone that you did it. 
 
 # ExileYura's (Partial) Guide for Road Racing
 
@@ -2906,6 +2906,16 @@ some observations and troubleshooting here.
   listed in other guides, but are just as valid as any non-standard
   build. You might need to get creative with some aspects of it --
   instructions won't be as clear here.
+
+# ExileYura's Point Drifting Guide
+
+- I decided to make this segment short due to two factors. 
+  1) I'm not actually good at building these cars.
+  2) I don't intend to become good at building them.
+- There is a certain degree of dishonor in doing this, because the game heavily rewards using drag compound via giving you insane amounts of score - but you have to build and drive in a manner that is very far removed from the principles of drifting. It is not a game of skill, as much as a game of luck, and is considered cheap, and a glitch by the community.
+- Most of the principles will be the same as in Powerslide Drifting. You always want Drag Compound and AWD - there is no Point Drifting shitbox without these two.
+- You explicitely want to make the car very rigid, so it stays in angle. 
+- This car will basically have so much side-bite and so little grip, that it will constantly slide sideways, and barely ever move forward no matter how much you struggle. The name of the game is - finding as much control as you can, so you can at least kind-of navigate the car towards your desired direction. I never could figure it out all that well, but it feels rather nasty to drive.
 
 # ExileYura's Purist Build Guide
 
