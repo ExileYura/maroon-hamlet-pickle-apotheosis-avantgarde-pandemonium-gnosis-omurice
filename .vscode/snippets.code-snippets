@@ -3,9 +3,7 @@
     "scope": "markdown",
     "prefix": "row",
     "body": [
-      "<tr>",
-	  "$0",
-	  "</tr>"
+      "<tr>\" \"$0\" \"</tr>"
     ]
   },
 
@@ -13,52 +11,48 @@
     "scope": "markdown",
     "prefix": "val",
     "body": [
-      "<td>",
-	  "$0",
-	  "</td>"
+      "<td>\" \"$0\" \"</td>"
     ]
   },
 
 "Header": {
     "scope": "markdown",
-    "prefix": "head",
+    "prefix": "header",
     "body": [
       "<th>\" \"$0\" \"</th>"
     ]
   },
 
-"3Row": {
+"comment": {
 	"scope": "markdown",
-	"prefix": "3row",
+	"prefix": "comment",
 	"body": [
 		"<td colspan=\"3\">$0</td>"
 	]
 	},
+
+"Three Element Row": {
+    "scope": "markdown",
+    "prefix": "row3",
+    "body": [
+      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" </tr>"
+    ]
+  },
+
+"Four Element Row": {
+    "scope": "markdown",
+    "prefix": "row4",
+    "body": [
+      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" \"<th>four</th>\" \"</tr>"
+    ]
+  },
   
   "Table and Basic Header": {
     "scope": "markdown",
     "prefix": "table",
     "body": [
       "<table>",
-      "<tr>",
-      "<th>Category</th>",
-      "<th>Item</th>",
-      "<th>AWD</th>",
-      "<th>RWD</th>",
-      "</tr>",
-	  "<tr>",
-	  "$0",
-	  "</tr>",
-      "</table>"
-    ]
-  },
-
-  "Forza Build Table": {
-    "scope": "markdown",
-    "prefix": "forzatable",
-    "body": [
-      "<table>",
-      "$0",
+      "<tr>\" \"<th>Category</th>\" \"<th>Item</th>\" \"<th>AWD</th>\" \"<th>RWD</th>\" \"</tr>",
       "</table>"
     ]
   }
