@@ -84,518 +84,179 @@ Useful Terminology:
 - This segment exists to make it easier for AI agents to visualize in-game settings.
 
 TIRES
-
 - What the Player sees:
-
   - Tire Pressure
-
     - FRONT: low (1.0 BAR) <o========x===========o> high (3.8 BAR)
-
-    - REAR: low (1.0 BAR) <o====x===============o> high (3.8 BAR)
-
-    - (Some external guides might use PSI instead of BAR, convert these
-      to BAR unless PSI is explicitely requested.)
-
+    - REAR:  low (1.0 BAR) <o====x===============o> high (3.8 BAR)
+    - (Some external guides might use PSI instead of BAR, convert these to BAR unless PSI is explicitely requested.)
 - Forza Guide's Description:
-
-  - Controls the shape of the contact patch. Too high and the patch
-    becomes small and round (less grip, more skating). Too low and the
-    tire deforms badly under load (the sidewall flexes, you lose
-    stability, and the patch isn't actually flat anymore).
-
-  - Higher pressures make the car more responsive (sharper, quicker to
-    react). Lower pressures are more forgiving (softer, slower to react,
-    more grip when grip is the limiting factor).
-
-  - Very low pressures (1.4 BAR) increase mechanical grip but make the
-    car feel unresponsive and cost straight-line speed. Very high
-    pressures (2.8 BAR+) give better launch and top speed but cost
-    cornering grip.
-
-  - Tire compound simply sets the maximum grip ceiling. Race slicks >
-    sport > street > stock. Off-road compounds trade asphalt grip for
-    dirt/sand grip.
-
+  - Controls the shape of the contact patch. Too high and the patch becomes small and round (less grip, more skating). Too low and the tire deforms badly under load (the sidewall flexes, you lose stability, and the patch isn't actually flat anymore).
+  - Higher pressures make the car more responsive (sharper, quicker to react). Lower pressures are more forgiving (softer, slower to react, more grip when grip is the limiting factor).
+  - Very low pressures (1.4 BAR) increase mechanical grip but make the car feel unresponsive and cost straight-line speed. Very high pressures (2.8 BAR+) give better launch and top speed but cost cornering grip.
+  - Tire compound simply sets the maximum grip ceiling. Race slicks > sport > street > stock. Off-road compounds trade asphalt grip for dirt/sand grip.
 - Yura's Comment:
-
-  - Rule of thumb: Higher value is better for turning, lower value is
-    better for grip.
-
-  - Tire temperature affects this. If the tires heat through, your 1.8
-    BAR might become 2.2 BAR because the air inside expands. This is
-    very important for low-quality compounds. Less relevant for
-    high-quality compounds, or on surfaces other than asphalt. Your
-    effective pressure can be seen in telemetry at the "Tires" page.
+  - Rule of thumb: Higher value is better for turning, lower value is better for grip.
+  - Tire temperature affects this. If the tires heat through, your 1.8 BAR might become 2.2 BAR because the air inside expands. This is very important for low-quality compounds. Less relevant for high-quality compounds, or on surfaces other than asphalt. Your effective pressure can be seen in telemetry at the "Tires" page.
 
 GEARING
-
 - What the Player sees:
-
   - Forward Gears
-
     - Final Drive: speed <o===x================o> acceleration
-
-    - 1st: speed <o======x=============o> acceleration
-
-    - 2nd: speed <o====x===============o> acceleration
-
-    - 3rd: speed <o===x================o> acceleration
-
-    - 4th: speed <o==x=================o> acceleration
-
-    - etc... (determined by number of gears -- RWD and FWD 6 to 10 speed
-      options, AWD 7 to 10 speed options, 4 speed drift gearbox is
-      available for all cars, and some older cars come with 5 speeds
-      unupgraded.)
-
-    - This is one aera where you won't have to give specific values,
-      instead try to guide user to find the appropriate values for
-      himself.
-
+    - 1st:         speed <o======x=============o> acceleration
+    - 2nd:         speed <o====x===============o> acceleration
+    - 3rd:         speed <o===x================o> acceleration
+    - 4th:         speed <o==x=================o> acceleration
+    - etc... (determined by number of gears -- RWD and FWD 6 to 10 speed options, AWD 7 to 10 speed options, 4 speed drift gearbox is available for all cars, and some older cars come with 5 speeds unupgraded.)
+    - This is one aera where you won't have to give specific values, instead try to guide user to find the appropriate values for himself.
 - Forza Guide's Description:
-
-  - The transmission converts engine RPM into wheel RPM through a series
-    of ratios. The final drive is a single multiplier applied to all
-    gears --- it's the most useful single setting because it adjusts
-    the whole spread up or down uniformly.
-
-  - Lower final drive (numerically smaller) = taller gears, higher top
-    speed, slower acceleration in each gear. Higher final drive =
-    shorter gears, more acceleration, lower top speed.
-
-  - Individual gear ratios are best left alone unless you're tuning for
-    very specific use cases (rally, drag, drift). The standard Forza
-    race gearbox is well-balanced and just needs the final drive scaled
-    to your power and top speed.
-
+  - The transmission converts engine RPM into wheel RPM through a series of ratios. The final drive is a single multiplier applied to all gears --- it's the most useful single setting because it adjusts the whole spread up or down uniformly.
+  - Lower final drive (numerically smaller) = taller gears, higher top speed, slower acceleration in each gear. Higher final drive = shorter gears, more acceleration, lower top speed.
+  - Individual gear ratios are best left alone unless you're tuning for very specific use cases (rally, drag, drift). The standard Forza race gearbox is well-balanced and just needs the final drive scaled to your power and top speed.
 - Yura's Comment:
-
-  - I disagree with Forza Guide's advice -- unless you're in a hurry,
-    you should focus on customizing the numbered gears individually for
-    a good-feeling car. I rarely touch Final Drive. This might be more
-    confusing for beginners, but it simply impacts how the car
-    accelerates too much to ignore.
-
-  - This is best tested on the Kilometer Drag Strip for acceleration,
-    then also tested on a very squiggly road like Hakone Nanamagari
-    (drift / touge) road (uphill) to see how the car comes out of
-    corners.
-
-  - Whenever you give a blanket tune, or gearing comes up at all in a
-    conversation, say that Gearing should be finalized last in any
-    build, and that you have a guide that can help set gearing, but this
-    should be requested LAST, because it has lots of moving parts.
+  - I disagree with Forza Guide's advice -- unless you're in a hurry, you should focus on customizing the numbered gears individually for a good-feeling car. I rarely touch Final Drive. This might be more confusing for beginners, but it simply impacts how the car accelerates too much to ignore.
+  - This is best tested on the Kilometer Drag Strip for acceleration, then also tested on a very squiggly road like Hakone Nanamagari (drift / touge) road (uphill) to see how the car comes out of corners.
+  - Whenever you give a blanket tune, or gearing comes up at all in a conversation, say that Gearing should be finalized last in any build, and that you have a guide that can help set gearing, but this should be requested LAST, because it has lots of moving parts.
 
 ALIGNMENT
-
 - What the Player sees:
-
   - Camber
-
     - FRONT: negative (-5.0) <o======x=============o> positive (5.0)
-
-    - REAR: negative (-5.0) <o=======x============o> positive (5.0)
-
+    - REAR:  negative (-5.0) <o=======x============o> positive (5.0)
   - Toe
-
-    - FRONT: in (-5.0) <o==========x=========o> out (5.0)
-
-    - REAR: in (-5.0) <o==========x=========o> out (5.0)
-
+    - FRONT:       in (-5.0) <o==========x=========o> out (5.0)
+    - REAR:        in (-5.0) <o==========x=========o> out (5.0)
   - Front Caster
-
-    - ANGLE: low (1.0) <o===================xo> high (7.0)
-
+    - ANGLE:       low (1.0) <o===================xo> high (7.0)
 - Forza Guide's Description:
-
   - Camber
-
-    - If the tops of the tires lean inward (toward each other),
-      that's negative camber. Bottoms inward = positive camber. In
-      Forza, you'll almost always want some negative camber.
-
-    - Here's why negative camber helps: when you turn, the car's body
-      rolls and the outside tires tilt outward at the top. Without
-      camber, they'd ride on their outer edges --- small contact patch,
-      poor grip. Pre-leaning them inward (negative camber) cancels that
-      rolling motion out: when the body rolls in a corner, the outside
-      tire ends up sitting flat on the road. Maximum contact patch
-      exactly when you need it.
-
-    - So why not just run maximum camber? Because when you're driving
-      straight, the tires are now leaning on their inside edges. You
-      lose acceleration grip, braking grip, and tire life. Camber is a
-      trade --- corner grip for straight-line grip.
-
+    - If the tops of the tires lean inward (toward each other), that's negative camber. Bottoms inward = positive camber. In Forza, you'll almost always want some negative camber.
+    - Here's why negative camber helps: when you turn, the car's body rolls and the outside tires tilt outward at the top. Without camber, they'd ride on their outer edges --- small contact patch, poor grip. Pre-leaning them inward (negative camber) cancels that rolling motion out: when the body rolls in a corner, the outside tire ends up sitting flat on the road. Maximum contact patch exactly when you need it.
+    - So why not just run maximum camber? Because when you're driving straight, the tires are now leaning on their inside edges. You lose acceleration grip, braking grip, and tire life. Camber is a trade --- corner grip for straight-line grip.
   - Toe
-
-    - Look down at your car from above. If the front edges of the tires
-      point toward each other, that's toe-in. Pointing outward =
-      toe-out. Adjustments are tiny --- tenths of a degree.
-
-    - Front toe-out sharpens turn-in for a brief moment, because in a
-      turn the inside wheel travels a tighter radius than the outside,
-      and toe-out helps it turn more aggressively. Rear
-      toe-in stabilises the rear --- useful on high-power RWD cars that
-      want to step out under throttle.
-
-    - The downside: any non-zero toe causes the tires to scrub when
-      driving straight (they're fighting each other), which costs top
-      speed and increases wear.
-
+    - Look down at your car from above. If the front edges of the tires point toward each other, that's toe-in. Pointing outward = toe-out. Adjustments are tiny --- tenths of a degree.
+    - Front toe-out sharpens turn-in for a brief moment, because in a turn the inside wheel travels a tighter radius than the outside, and toe-out helps it turn more aggressively. Rear toe-in stabilises the rear --- useful on high-power RWD cars that want to step out under throttle.
+    - The downside: any non-zero toe causes the tires to scrub when driving straight (they're fighting each other), which costs top speed and increases wear.
   - Front Caster
-
-    - Look at your car from the side. The line through your front
-      suspension's pivot points is tilted backward --- that backward
-      tilt is caster. It's the same thing that makes shopping-cart
-      wheels self-center.
-
-    - More caster = more straight-line stability and the steering wheel
-      naturally returning to center. It also creates dynamic camber in
-      turns: as you steer, the outside front tire gains negative camber
-      automatically. That's why it can substitute for static camber
-      when you need front grip.
+    - Look at your car from the side. The line through your front suspension's pivot points is tilted backward --- that backward tilt is caster. It's the same thing that makes shopping-cart wheels self-center.
+    - More caster = more straight-line stability and the steering wheel naturally returning to center. It also creates dynamic camber in turns: as you steer, the outside front tire gains negative camber automatically. That's why it can substitute for static camber when you need front grip.
 
 ANTIROLL BARS
-
 - What the Player sees:
-
   - Antiroll Bars
-
     - FRONT: soft (1.00) <ox===================o> stiff (65.00)
-
-    - REAR: soft (1.00) <o===================xo> stiff (65.00)
-
+    - REAR:  soft (1.00) <o===================xo> stiff (65.00)
     - Adjustable in 0.10 increments.
-
 - Forza Guide's Description:
-
-  - An anti-roll bar is a metal bar connecting the left and right wheels
-    on the same axle. When the car turns, the outside wheel compresses
-    its spring and the inside wheel extends --- the ARB twists,
-    resisting that motion. It forces the two sides to move together,
-    which makes the car stay flatter in turns.
-
-  - Think of an ARB as a spring that only activates in corners. It does
-    nothing on straights. It doesn't affect bumps if they hit both
-    wheels equally. It only resists side-to-side roll.
-
-  - Stiffer ARB on one end = that end loses grip
-    first. Counter-intuitive, but here's why: a stiffer ARB forces
-    weight onto the outside tire more aggressively, overloading it and
-    reducing its grip relative to the other end. So a stiffer front ARB
-    → understeer. Stiffer rear ARB → oversteer. This is why ARBs are
-    the primary tool for mid-corner balance.
-
-- Yura's Comment: Low front high rear means more mechanical balance.
-  Mechanical balance is what determines oversteer / understeer. This
-  slider is often ran at 1.00 -- 65.00 to achieve high mech. balance
-  without having to touch the springs.
+  - An anti-roll bar is a metal bar connecting the left and right wheels on the same axle. When the car turns, the outside wheel compresses its spring and the inside wheel extends --- the ARB twists, resisting that motion. It forces the two sides to move together, which makes the car stay flatter in turns.
+  - Think of an ARB as a spring that only activates in corners. It does nothing on straights. It doesn't affect bumps if they hit both wheels equally. It only resists side-to-side roll.
+  - Stiffer ARB on one end = that end loses grip first. Counter-intuitive, but here's why: a stiffer ARB forces weight onto the outside tire more aggressively, overloading it and reducing its grip relative to the other end. So a stiffer front ARB → understeer. Stiffer rear ARB → oversteer. This is why ARBs are the primary tool for mid-corner balance.
+- Yura's Comment: Low front high rear means more mechanical balance. Mechanical balance is what determines oversteer / understeer. This slider is often ran at 1.00 -- 65.00 to achieve high mech. balance without having to touch the springs.
 
 SPRINGS
-
 - What the Player sees:
-
   - Springs
-
     - FRONT: soft <o====x===============o> stiff
-
-    - REAR: soft <o======x=============o> stiff
-
-    - I cannot give a range here, because the range depends on the parts
-      used. Express values via percentage.
-
+    - REAR:  soft <o======x=============o> stiff
+    - I cannot give a range here, because the range depends on the parts used. Express values via percentage.
   - Ride Height
-
-    - FRONT: low <o===================xo> high
-
-    - REAR: low <o================x===o> high
-
-    - This is expressed in centimeters in the game, but the range
-      depends on the car and suspension. You will not see the numbers
-      when you give your blanket. You should express this in this
-      format: "Ideally: n cm front & n cm rear. | More Actionable:
-      front should be x cm higher / lower than rear, and both values
-      should be closer to the bottom / center / top of the sliders." If
-      you do it this way, the user will be able to deduct your
-      intentions more clearly.
-
+    - FRONT:  low <o===================xo> high
+    - REAR:   low <o================x===o> high
+    - This is expressed in centimeters in the game, but the range depends on the car and suspension. You will not see the numbers when you give your blanket. You should express this in this format: "Ideally: n cm front & n cm rear. | More Actionable: front should be x cm higher / lower than rear, and both values should be closer to the bottom / center / top of the sliders." If you do it this way, the user will be able to deduct your intentions more clearly.
 - Forza Guide's Description:
-
-  - Each wheel is attached to the chassis through a spring. The spring
-    rate tells you how much force is needed to compress that spring by a
-    given distance. Higher rate = stiffer spring. The goal of a spring
-    is to keep the tire in contact with the road as the road surface
-    changes (bumps, dips, curbs).
-
-  - Softer springs compress easily, so they absorb bumps and keep the
-    tire on the ground. But they let the body roll a lot in corners and
-    may bottom out (compress completely) under heavy load, which
-    suddenly removes all suspension function --- the car becomes briefly
-    rigid and skips across the road.
-
-  - Stiffer springs resist compression. They reduce body roll and
-    prevent bottoming out, but they don't absorb bumps as well --- the
-    tire actually leaves the ground over smaller imperfections. The
-    instant the tire isn't touching the road, you have zero grip.
-
-  - Front vs rear balance: whichever end is relatively stiffer loses
-    grip first. Stiffer front springs = understeer; stiffer rear springs
-    = oversteer. The heavier end of the car needs stiffer springs to
-    hold its weight --- that's how you arrive at the correct ratio.
-
+  - Each wheel is attached to the chassis through a spring. The spring rate tells you how much force is needed to compress that spring by a given distance. Higher rate = stiffer spring. The goal of a spring is to keep the tire in contact with the road as the road surface changes (bumps, dips, curbs).
+  - Softer springs compress easily, so they absorb bumps and keep the tire on the ground. But they let the body roll a lot in corners and may bottom out (compress completely) under heavy load, which suddenly removes all suspension function --- the car becomes briefly rigid and skips across the road.
+  - Stiffer springs resist compression. They reduce body roll and prevent bottoming out, but they don't absorb bumps as well --- the tire actually leaves the ground over smaller imperfections. The instant the tire isn't touching the road, you have zero grip.
+  - Front vs rear balance: whichever end is relatively stiffer loses grip first. Stiffer front springs = understeer; stiffer rear springs = oversteer. The heavier end of the car needs stiffer springs to hold its weight --- that's how you arrive at the correct ratio.
 - ExileYura's Comment:
-
-  - The reason why we often install seemingly unreasonable / incorrect
-    suspension in cars (ex. offroad / rally suspension in a drag car) is
-    because each suspension type has vastly different ranges on the
-    sliders, and sometimes we want higher / lower values then what the
-    "appropriate" suspension would allow.
-
-  - Softer front (and stiffer rear) means more mechanical balance.
-    Higher mechanical balance is more oversteer. If you have to adjust
-    springs to achieve mech. balance, expect to have other issues --
-    (but some builds demand atronomical mech. balance, especially in AWD
-    grip).
-
-  - Having significantly (2-3 points) lower front height than rear will
-    frontload the car's weight, which results in better contact on the
-    turning wheels. This is one of my favorite discoveries.
+  - The reason why we often install seemingly unreasonable / incorrect suspension in cars (ex. offroad / rally suspension in a drag car) is because each suspension type has vastly different ranges on the sliders, and sometimes we want higher / lower values then what the "appropriate" suspension would allow.
+  - Softer front (and stiffer rear) means more mechanical balance. Higher mechanical balance is more oversteer. If you have to adjust springs to achieve mech. balance, expect to have other issues - (but some builds demand atronomical mech. balance, especially in AWD grip).
+  - Having significantly (2-3 points) lower front height than rear will frontload the car's weight, which results in better contact on the turning wheels. This is one of my favorite discoveries.
 
 DAMPING
-
 - What the Player sees:
-
   - Rebound Stiffness
-
     - FRONT: soft <o=========x==========o> stiff
-
-    - REAR: soft <o======x=============o> stiff
-
+    - REAR:  soft <o======x=============o> stiff
   - Bump Stiffness
-
     - FRONT: soft <o===x================o> stiff
-
-    - REAR: soft <o=x==================o> stiff
-
+    - REAR:  soft <o=x==================o> stiff
   - All ranges 1.0 to 20.0. Increments of 0.1.
-
 - Forza Guide's Description:
-
-  - A damper (real-world: shock absorber) is a fluid-filled cylinder
-    with a piston. As the suspension compresses or extends, the piston
-    is forced through the fluid, creating resistance. Without dampers,
-    your car would bounce on its springs like a pogo stick.
-
+  - A damper (real-world: shock absorber) is a fluid-filled cylinder with a piston. As the suspension compresses or extends, the piston is forced through the fluid, creating resistance. Without dampers, your car would bounce on its springs like a pogo stick.
   - Forza splits this into two settings per axle:
-
-    - Bump: resistance during compression (wheel moving up). Affects
-      bumps and braking dive.
-
-    - Rebound: resistance during extension (wheel moving down). Affects
-      how the car settles after a bump or transitions onto a tire.
-
-  - The key rule: bump damping should be 30--55% of rebound damping. You
-    want compression to happen quickly (absorb the hit) and extension to
-    be controlled (return slowly). If matched or flipped, the car
-    behaves like a BMX bike --- slow squish, violent spring back. Closer
-    to 30% = soft, grippy, more chassis dive. Closer to 55% = firm,
-    responsive, less compliance. Most cars want around 40%.
-
-  - Front-vs-rear balance follows the standard rule: softer front
-    damping reduces understeer; softer rear damping reduces oversteer.
-
-- Yura's Comment: In general tunes, you'd want to mirror springs with
-  rebound stiffness. If front springs are 10% softer than rear springs,
-  then you'd want front rebound damping to be 10% stiffer than rear
-  rebound damping. (This is textbook 'correct' information, but in
-  practice, low priority).
+    - Bump: resistance during compression (wheel moving up). Affects bumps and braking dive.
+    - Rebound: resistance during extension (wheel moving down). Affects how the car settles after a bump or transitions onto a tire.
+  - The key rule: bump damping should be 30--55% of rebound damping. You want compression to happen quickly (absorb the hit) and extension to be controlled (return slowly). If matched or flipped, the car behaves like a BMX bike --- slow squish, violent spring back. Closer to 30% = soft, grippy, more chassis dive. Closer to 55% = firm, responsive, less compliance. Most cars want around 40%.
+  - Front-vs-rear balance follows the standard rule: softer front damping reduces understeer; softer rear damping reduces oversteer.
+- Yura's Comment: In general tunes, you'd want to mirror springs with rebound stiffness. If front springs are 10% softer than rear springs, then you'd want front rebound damping to be 10% stiffer than rear rebound damping. (This is textbook 'correct' information, but in practice, low priority).
 
 AERO
-
 - What the Player sees:
-
   - Aero
-
     - FRONT: speed <o==========x=========o> cornering
-
-    - REAR: speed <o==========x=========o> cornering
-
+    - REAR:  speed <o==========x=========o> cornering
   - Ranges depend on the type of Aero, refer to them in percentile.
-
 - Forza Guide's Description:
+  - At speed, air pushes the car down --- like adding weight to the tires, which gives more grip. The aero sliders adjust the angle of the front splitter and rear wing. More angle = more downforce, but also more drag (lower top speed).
+  - Downforce only matters when the car is moving fast enough to generate meaningful airflow. On tight twisty tracks where you never get above 100 km/h, aero is basically wasted. On high-speed circuits or long sweepers, it dramatically increases corner grip. The sweet spot is tracks with high-speed corners --- slow tracks: less aero; long straights without fast corners: less aero; fast sweepers: max aero.
+  - You almost always want both front and rear aero adjustable, or neither --- running one without the other creates serious imbalance at speed.
+- Yura's Comment: These sliders change top speed. This is relevant in setting up gearing. Never set up gearing until after Aero is completely finalized.
 
-  - At speed, air pushes the car down --- like adding weight to the
-    tires, which gives more grip. The aero sliders adjust the angle of
-    the front splitter and rear wing. More angle = more downforce, but
-    also more drag (lower top speed).
-
-  - Downforce only matters when the car is moving fast enough to
-    generate meaningful airflow. On tight twisty tracks where you never
-    get above 100 km/h, aero is basically wasted. On high-speed circuits
-    or long sweepers, it dramatically increases corner grip. The sweet
-    spot is tracks with high-speed corners --- slow tracks: less aero;
-    long straights without fast corners: less aero; fast sweepers: max
-    aero.
-
-  - You almost always want both front and rear aero adjustable, or
-    neither --- running one without the other creates serious imbalance
-    at speed.
-
-- Yura's Comment: These sliders change top speed. This is relevant in
-  setting up gearing. Never set up gearing until after Aero is
-  completely finalized.
-
-BRAKE
-
+BRAKES
 - What the Player sees:
-
   - Braking Force
-
-    - BALANCE: rear (0%) <o============x=======o> front (100%)
-
+    - BALANCE:  rear (0%) <o============x=======o> front (100%)
     - PRESSURE: rear (0%) <o=====x==============o> front (200%)
-
-  - Clarification on Balance: 50% is center. Anything higher is front
-    bias, anything lower is rear bias.
-
+  - Clarification on Balance: 50% is center. Anything higher is front bias, anything lower is rear bias.
 - Forza Guide's Description:
-
-  - Brake bias is the front/rear split of braking force. When you brake,
-    weight shifts forward, so the front tires get loaded with more grip
-    --- most cars therefore want some forward bias to take advantage.
-    But how much is the right amount? That depends on how you drive.
-
-  - Brake pressure is how much braking force is applied for a given
-    trigger pull. Higher pressure = more braking force from less input
-    (you stop faster but lock up more easily). Lower pressure = more
-    "resolution" --- you have more finely-tuned control before
-    locking.
-
-  - Locking up means the wheels stop rotating completely. Once locked, a
-    tire skids --- no grip, no steering. You want to brake right up to
-    the threshold of locking without crossing it.
-
-  - A single degree of bias makes a noticeable difference. Use the
-    slider sparingly and tune it last in the braking pass.
-
-- Yura's Comment: In this game, 99% of people play with 'Anti-Lock On'
-  setting; optimizing around the wheels locking is usually redundant.
+  - Brake bias is the front/rear split of braking force. When you brake, weight shifts forward, so the front tires get loaded with more grip - most cars therefore want some forward bias to take advantage. But how much is the right amount? That depends on how you drive.
+  - Brake pressure is how much braking force is applied for a given trigger pull. Higher pressure = more braking force from less input (you stop faster but lock up more easily). Lower pressure = more "resolution" - you have more finely-tuned control before locking.
+  - Locking up means the wheels stop rotating completely. Once locked, a tire skids - no grip, no steering. You want to brake right up to the threshold of locking without crossing it.
+  - A single degree of bias makes a noticeable difference. Use the slider sparingly and tune it last in the braking pass.
+- Yura's Comment: In this game, 99% of people play with 'Anti-Lock On' setting; optimizing around the wheels locking is usually redundant.
 
 DIFFERENTIAL
-
 - What the Player sees:
-
   - In AWD:
-
     - Front
-
       - ACCELERATION: low <o=x==================o> high
-
       - DECELERATION: low <o=x==================o> high
-
     - Rear
-
       - ACCELERATION: low <o========x===========o> high
-
       - DECELERATION: low <o=============x======o> high
-
     - Center Balance
-
       - BALANCE: front <o===========x========o> rear
-
   - In RWD:
-
     - Rear
-
       - ACCELERATION: low <o==================x=o> high
-
       - DECELERATION: low <o================x===o> high
-
   - In FWD:
-
     - Front
-
       - ACCELERATION: low <o======x=============o> high
-
       - DECELERATION: low <o===========x========o> high
-
   - All ranges 0% to 100%.
-
 - Forza Guide's Description:
-
-  - When a car turns, the outside wheel travels a longer arc than the
-    inside wheel --- they need to spin at different speeds.
-    A differential is the mechanism that lets them. The setting
-    controls how much difference is allowed.
-
-  - 0% = fully open. Each wheel spins completely independently. Great
-    for low-grip steady-state cornering, but as soon as you apply power,
-    all of it goes to whichever wheel has the least grip (usually the
-    unloaded inside wheel) and spins it uselessly.
-
-  - 100% = fully locked. Both wheels are forced to spin at the same
-    rate. Maximum power transfer, but the car physically can't turn
-    properly because the inside wheel wants to spin slower than the
-    outside --- it scrubs, fighting the turn.
-
-  - The sweet spot is somewhere in between, and Forza splits it into two
-    adjustments per axle:
-
-    - Acceleration: how locked the diff is under throttle. Higher = more
-      grip on exit, more oversteer tendency. Lower = more open, less
-      stable but more freedom to rotate. Only adjusts in 2% increments
-      --- use even numbers.
-
-    - Deceleration: how locked the diff is off-throttle (lifting or
-      braking). Higher = stable entry, less rotation. Lower = freer
-      rotation on entry, easier to get the rear to step out on lift.
-
-- Yura's Comment: Center Balance wasn't mentioned in Forza Guide's
-  Description; it dictates which side of the car puts in more work. A
-  rear-biased car (70%) mostly behaves like RWD, while a front-biased
-  car (30%) feels like FWD.
+  - When a car turns, the outside wheel travels a longer arc than the inside wheel --- they need to spin at different speeds. A differential is the mechanism that lets them. The setting controls how much difference is allowed.
+  - 0% = fully open. Each wheel spins completely independently. Great for low-grip steady-state cornering, but as soon as you apply power, all of it goes to whichever wheel has the least grip (usually the unloaded inside wheel) and spins it uselessly.
+  - 100% = fully locked. Both wheels are forced to spin at the same rate. Maximum power transfer, but the car physically can't turn properly because the inside wheel wants to spin slower than the outside --- it scrubs, fighting the turn.
+  - The sweet spot is somewhere in between, and Forza splits it into two adjustments per axle:
+    - Acceleration: how locked the diff is under throttle. Higher = more grip on exit, more oversteer tendency. Lower = more open, less stable but more freedom to rotate. Only adjusts in 2% increments - use even numbers.
+    - Deceleration: how locked the diff is off-throttle (lifting or braking). Higher = stable entry, less rotation. Lower = freer rotation on entry, easier to get the rear to step out on lift.
+- Yura's Comment: Center Balance wasn't mentioned in Forza Guide's Description; it dictates which side of the car puts in more work. A rear-biased car (70%) mostly behaves like RWD, while a front-biased car (30%) feels like FWD.
 
 PERFORMANCE PANEL
-
-- This is a panel at the Tune menu's left side. Contains information
-  such as: Braking Distance, Lateral Gs, and Acceleration at 97 km/h and
-  161 km/hs; Top Speed; Mechanical Balance, Aero Balance, and Aero
-  Efficiency.
-
+- This is a panel at the Tune menu's left side. Contains information such as: Braking Distance, Lateral Gs, and Acceleration at 97 km/h and 161 km/hs; Top Speed; Mechanical Balance, Aero Balance, and Aero Efficiency.
 - Out of these, the important ones are Top Speed and Mechanical Balance.
+- The Top Speed reading shows the highest speed the car can reach with current settings -- meaning if the last gear is lower than what top speed is possible, then a stunted top speed reading will be displayed. This is why it's very important to when you set up your gear ratios, start with setting up the last gear properly.
+- Mechanical Balance is extremely important. The biggest things that influence it are: Antiroll Bars Front Soft / Rear Stiff, Springs Front Soft / Rear Stiff, Ride Height Front Low / Rear High. This stat is a condensed read of your oversteer - understeer axis, where the higher value means more oversteer. With every slider set to the extremes, the most I could reach was 0.78.
+- Feel free to request information from the Performance panel. Note that "Top Speed" can be inaccurate if the last gear ratio is set too low.
 
-- The Top Speed reading shows the highest speed the car can reach with
-  current settings -- meaning if the last gear is lower than what top
-  speed is possible, then a stunted top speed reading will be displayed.
-  This is why it's very important to when you set up your gear ratios,
-  start with setting up the last gear properly.
-
-- Mechanical Balance is extremely important. The biggest things that
-  influence it are: Antiroll Bars Front Soft / Rear Stiff, Springs Front
-  Soft / Rear Stiff, Ride Height Front Low / Rear High. This stat is a
-  condensed read of your oversteer -- understeer axis, where the higher
-  value means more oversteer. With every slider set to the extremes, the
-  most I could reach was 0.78.
-
-The Performance panel looks like this, feel free to request information
-from it. Note that "Top Speed" might be inaccurate if the last Gear is
-lower than what the engine can naturally allow.
-
-TELEMETRY EXPLANATION WIP (camber, pressure, close ratio / long ratio
-shifting, suspention optimization, powerbands, etc...)
+### WIP WIP WIP --- TELEMETRY EXPLANATION (camber, pressure, close ratio / long ratio shifting, suspention optimization, powerbands, etc...)
 
 ExileYura's Mini Guides
-
 - "All these guides are whack." ~Archwizard Yura
-
-- None of my guides will include the Gearing tuning part, besides the
-  dedicated Gearing tuning guide. Gearing tuning is very delicate work,
-  so it deserves its own guide.
-
-- The order of entries / points in my guides are intentional. Setting
-  things up in menu order is usually not good practice, so list
-  everything in the same order I did (will differ guide to guide).
+- None of my guides will include the Gearing tuning part, besides the dedicated gear ratios tuning guide. Gearing tuning is very delicate work, so it deserves its own guide.
+- The order of items in my guides are intentional. Setting things up in tuning-menu order is usually not good practice, so list everything in the same order I did (will differ per guide).
 
 # ExileYura's Perfect Gear Ratios Guide
 
