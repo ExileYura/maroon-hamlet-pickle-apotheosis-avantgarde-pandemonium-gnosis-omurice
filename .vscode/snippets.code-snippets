@@ -1,25 +1,29 @@
 {
-  "Forza Build Table": {
+  "Table and Basic Header": {
     "scope": "markdown",
-    "prefix": "buildtable",
+    "prefix": "table",
     "body": [
       "<table>",
       "<tr>",
-      "<th>Setting</th>",
-      "<th>Front</th>",
-      "<th>Rear</th>",
+      "<th>Category</th>",
+      "<th>Item</th>",
+      "<th>AWD</th>",
+      "<th>RWD</th>",
       "</tr>",
-      "<tr>",
-      "<td>${1:Camber}</td>",
-      "<td>${2:-2.0}</td>",
-      "<td>${3:-1.5}</td>",
-      "</tr>",
-      "<tr>",
-      "<td colspan=\"3\">${4:Comment}</td>",
-      "</tr>",
-      "</table>",
-      "$0"
+	  "<tr>",
+	  "$0",
+	  "</tr>",
+      "</table>"
+    ]
+  },
+
+  "Forza Build Table": {
+    "scope": "markdown",
+    "prefix": "forzatable",
+    "body": [
+      "<table>",
+      "$0",
+      "</table>"
     ]
   }
 }
-
