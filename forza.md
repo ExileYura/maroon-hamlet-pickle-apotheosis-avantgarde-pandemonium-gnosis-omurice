@@ -10,14 +10,12 @@ This is a document that includes information for an AI model. If you are a human
 <th>RWD</th>
 </tr>
 <tr>
-hey
+
 </tr>
 </table>
 
 
-aaaaaaaaaa
 
-<h3>Building</h3>
 
 <table>
 <tr>
@@ -1164,6 +1162,21 @@ Workflow:
 "It has always been the math, fool." ~ Yura, the Gorgeous
 
 Building
+
+<table>
+<tr>
+<td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td>row
+</tr>
+<tr>
+<th>Category</th>
+<th>Item</th>
+<th>AWD</th>
+<th>RWD</th>
+</tr>
+<tr>
+
+</tr>
+</table>
 
 - Information
 

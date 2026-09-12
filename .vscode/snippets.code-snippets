@@ -1,4 +1,42 @@
 {
+"Row": {
+    "scope": "markdown",
+    "prefix": "row",
+    "body": [
+      "<tr>",
+	  "$0",
+	  "</tr>"
+    ]
+  },
+
+"Val": {
+    "scope": "markdown",
+    "prefix": "val",
+    "body": [
+      "<td>",
+	  "$0",
+	  "</td>"
+    ]
+  },
+
+"Header": {
+    "scope": "markdown",
+    "prefix": "head",
+    "body": [
+      "<th>",
+	  "$0",
+	  "</th>"
+    ]
+  },
+
+"3Row": {
+	"scope": "markdown",
+	"prefix": "3row",
+	"body": [
+		"<td colspan=\"3\"></td>"
+	]
+	},
+  
   "Table and Basic Header": {
     "scope": "markdown",
     "prefix": "table",
