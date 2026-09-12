@@ -1507,7 +1507,7 @@ Tuning
 
     - Finalize Gearing in manual shifting based on best time (rivals).
 
-ExileYura's Awesome Drift Guide
+# ExileYura's Awesome Drift Guide
 
 Information
 
@@ -1748,77 +1748,41 @@ Building
 Tuning
 
 - The following segment is largely set in optimal tuning order.
-
-- IMPORTANT! Set your final gear to get the proper top speed BEFORE
-  tuning. This is important because if you apply a proper drift tune,
-  the game tends to fail to calculate your top speed, and it will be
-  impossible to find later. This is the first thing you should set.
-
+- IMPORTANT! Set your final gear to get the proper top speed BEFORE tuning. This is important because if you apply a proper drift tune, the game tends to fail to calculate your top speed, and it will be impossible to find later. This is the first thing you should set.
 - Weight Transfer
-
   - ARB:
-
     - Start at 8.00 | 10.00.
-
-    - Range is 1.00 to 20.00 on both sliders. Even a 0.50 increment
-      change can produce a noticeable difference, do not adjust
-      frivolously.
-
-    - Front soft means easier turn-in, stiff means more resistance on
-      turn-in.
-
-    - Rear soft means quicker response and sway on initiation and
-      mid-corner, stiff means more resistance.
-
+    - Range is 1.00 to 20.00 on both sliders (as per my playstyle). Even a 0.50 increment change can produce a noticeable difference, do not adjust frivolously.
+    - Front soft means easier turn-in, stiff means more resistance on turn-in.
+    - Rear soft means quicker response and sway on initiation and mid-corner, stiff means more resistance.
   - Springs:
-
     - Start both full soft. If the car feels good (acceleration,
       primarily), absolutely leave this as is.
-
     - Lower values > easier manji, faster response. Higher values >
       sluggish, predictable, carries momentum better.
-
     - If the car is accelerating poorly, because the rear wheels are
       just burning and burning (too much weight is shifting backwards),
       we can stiffen front in 5-10-20% increments. (In drag, this kills
       the wheelie. Here, it seems to stabilize the acceleration a bit.
       Honestly not sure why it works, but it does.)
-
       - A soft front, however, means higher mech. balance > more
         oversteer -- only increase this if you actually need it.
-
   - Damping:
-
     - Rebound:
-
       - If springs are full soft: 7 | 7
-
-      - If spring slider is stiffened, we should stiffen the opposite
-        spring by 1 to 2 increment (depending on severity).
-
-        - Example: Front spring had to be stiffened by ~10% > stiffen
-          rear rebound by 1 point + adjust bump accordingly.
-
+      - If spring slider is stiffened, we should stiffen the opposite spring by 1 to 2 increment (depending on severity).
+        - Example: Front spring had to be stiffened by ~10% > stiffen rear rebound by 1 point + adjust bump accordingly.
     - Bump: Calculate rebound \ 0.9.
-
     - Additionally, if you build for any offroad drift zone, or you know
       you will encounter lots of bumps (ex. Tokyo City Docks drift
       zone), you can go with a base of 5 | 5 or 6 | 6 on rebound, and
       adjust everything accordingly.
-
     - These are very aggressive settings, but they must be like this for
       consistency. We don't want the car to sway around uncontrollably.
-
   - Ride Height
-
-    - Front lower than rear > more weight on front tires > easier /
-      consistent turning.
-
-    - Rear lower than front > more weight on rear tires > less burnout
-      / better forward bite.
-
-    - Default: Converge towards the lower end of the sliders -- front 1
-      cm lower than rear.
+    - Front lower than rear > more weight on front tires > easier / consistent turning.
+    - Rear lower than front > more weight on rear tires > less burnout / better forward bite.
+    - Default: Converge towards the lower end of the sliders -- front 1 cm lower than rear.
 
 - Grip
 

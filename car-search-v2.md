@@ -135,6 +135,17 @@ CAR LIST
 
 - Letter G
 
+    - Ginetta
+       - G40 Junior
+         - YEAR: [2019]
+         - COUNTRY: [england]
+         - IDENTIFIER: "Green and Yellow livery."
+         - COMMENT: "Cornering cannot be further optimized within present constraints. Aggressive steering response and limited turning angle makes the car feel uniquely challenging."
+         - TODO:
+         - RATING: [rate_pending]
+         - CREATORS | TUNER: [tuner_yura] LIVERY: [designer_community-made]
+         - TAGS | CLASS: [A-700] DRIVE: [AWD] BUILD_TYPE: [free] TRACTION_CONTROL: [off] TRACK: [general] PRINCIPLE: [road_technical] INGAME_TYPE: [track-toys]
+
 - Letter H
 
 - Letter I
