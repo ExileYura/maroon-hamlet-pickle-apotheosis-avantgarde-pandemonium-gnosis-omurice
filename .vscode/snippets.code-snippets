@@ -3,7 +3,7 @@
     "scope": "markdown",
     "prefix": "row",
     "body": [
-      "<tr>\" \"$0\" \"</tr>"
+      "<tr>$0</tr>"
     ]
   },
 
@@ -11,7 +11,7 @@
     "scope": "markdown",
     "prefix": "val",
     "body": [
-      "<td>\" \"$0\" \"</td>"
+      "<td>$0</td>"
     ]
   },
 
@@ -19,7 +19,7 @@
     "scope": "markdown",
     "prefix": "header",
     "body": [
-      "<th>\" \"$0\" \"</th>"
+      "<th>$0</th>"
     ]
   },
 
@@ -35,7 +35,7 @@
     "scope": "markdown",
     "prefix": "row3",
     "body": [
-      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" </tr>"
+      "<tr> <th>one</th> <th>two</th> <th>three</th> </tr>"
     ]
   },
 
@@ -43,7 +43,7 @@
     "scope": "markdown",
     "prefix": "row4",
     "body": [
-      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" \"<th>four</th>\" \"</tr>"
+      "<tr> <th>one</th> <th>two</th> <th>three</th> <th>four</th> </tr>"
     ]
   },
   
@@ -52,7 +52,7 @@
     "prefix": "table",
     "body": [
       "<table>",
-      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" \"<th>four</th>\" \"</tr>",
+      "<tr> <th>one</th> <th>two</th> <th>three</th> <th>four</th> </tr>",
       "</table>"
     ]
   }

@@ -1165,10 +1165,12 @@ Building
 
 <table>
 <td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td>
-<tr>
-<td>" "Bodykits and Conversions" "</td>
-<tr>" "aaa" "</tr>
-</tr>
+  <tr>
+  <td>Bodykits and Conversions</td>
+    <tr> 
+      <td colspan="3">You want an engine that has the highest HP, a disgusting torque curve, and the lowest weight. You will almost always engine-swap. If an engine is a little weaker but has significantly better weight, it's worth considering, since you will not always reach your top speed on the strip anyway, and lower weights can give you an edge.</td> 
+    </tr>
+  </tr>
 </table>
 
 
