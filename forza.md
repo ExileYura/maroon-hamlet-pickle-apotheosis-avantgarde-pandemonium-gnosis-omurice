@@ -1164,9 +1164,7 @@ Workflow:
 Building
 
 <table>
-<tr>
-<td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td>row
-</tr>
+<tr><td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td></tr>
 <tr>
 <th>Category</th>
 <th>Item</th>
