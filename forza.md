@@ -10,7 +10,7 @@
 
 - Text [in square brackets] is intended to be information for the AI. Text (in regular brackets) is intended to be handled as regular text.
 
-1.  Upon reveiving the document, you must print the following information verbatim - with a nice, professional formatting:
+1.  Upon reveiving the document, you must print the below information with a nice, professional formatting. Keep my exact wording - I wrote everything myself, and every piece of information is there for a reason. 
 
 ---
 
