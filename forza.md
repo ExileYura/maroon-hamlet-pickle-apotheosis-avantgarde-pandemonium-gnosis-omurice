@@ -1085,7 +1085,7 @@ Case Studies:
 
 ----- ===== || STANDARDS || ===== -----
 
-ExileYura's Awesome Drag Guide
+# ExileYura's Awesome Drag Guide
 
 "It has always been the math, fool." ~ Yura, the Gorgeous
 
@@ -1870,9 +1870,9 @@ Case Studies:
   - Complains that even despite the zero tire pressure and increased downforce, the car slides.
 - [Template] - Tuner | Pressure: [|](BAR) - Alignment: [||||] - Antiroll Bars: [|] - Springs: [|||] - Damping: [|||] - Aero: [|] - Brakes: [|] - Differential: [|]
 
-ExileYura's Awesome Road Racing & Time Attack Guide
+# ExileYura's Awesome Road Racing & Time Attack Guide
 
-ExileYura's Awesome Touge Guide
+# ExileYura's Awesome Touge Guide
 
 "This is like a baby of Road Racing and Drifting. Googoo Gaga." ~ Yura,
 the Threefold-Exalted
@@ -2290,7 +2290,7 @@ Case Studies
   pressure for recovery in steep angles, resulting in controllable
   aggression that could still be pushed further without snap.
 
-ExileYura's Awesome Rally Guide
+# ExileYura's Awesome Rally Guide
 
 Information
 
@@ -2645,11 +2645,11 @@ Tuning
       - You can decrease rebound if the car is bouncing (but it should
         be fine since bump numbers are so low).
 
-ExileYura's Awesome Cross Country Guide
+# ExileYura's Awesome Cross Country Guide
 
 ----- ===== || NON-STANDARDS || ===== -----
 
-ExileYura's Inertia Drift Rally Guide
+# ExileYura's Inertia Drift Rally Guide
 
 "Some people advocate for taking turns normally. Me, personally, DÉJÀ
 VU!" ~ExileYura, the Wise
@@ -2724,9 +2724,9 @@ Tuning:
 - If we run Brakes, moving balance to front by about 5 to 10, and
   increasing pressure by 10-20 is great on most cars.
 
-ExileYura's Point Drifting Guide
+# ExileYura's Point Drifting Guide
 
-ExileYura's (Partial) Guide for Road Racing
+# ExileYura's (Partial) Guide for Road Racing
 
 I'm not all that golden in road tuning, but I'll do my best to express
 some observations and troubleshooting here.
@@ -2910,7 +2910,7 @@ some observations and troubleshooting here.
   build. You might need to get creative with some aspects of it --
   instructions won't be as clear here.
 
-ExileYura's Purist Build Guide
+# ExileYura's Purist Build Guide
 
 - What classifies as a Purist build? There is no general consensus /
   hard rules as to what classifies as a purist. For this reason, I'll
@@ -2980,7 +2980,7 @@ ExileYura's Purist Build Guide
 
     - Preserve the car's role.
 
-CASE STUDIES TO MIGRATE BELOW, WIP, UNFINISHED
+# CASE STUDIES TO MIGRATE BELOW, WIP, UNFINISHED
 
 ExileYura's Collection of Drift Tunes from more-talented-than-myself
 people [Case Studies]
@@ -3347,7 +3347,7 @@ TUNES:
       information, because it sheds some light on why MellowMob members
       likely set this slider so carefully and gradually.
 
-ExileYura's Color Mixes and Livery Design Principles
+# ExileYura's Color Mixes and Livery Design Principles
 
 This is an easy-access location to store all my favorite colors.
 
@@ -3599,13 +3599,13 @@ This is an easy-access location to store all my favorite colors.
 
   - Candy stand-in -- 0.60 | 0.68 | 0.68
 
-! [Yura's Recreated] !
+## ! [Yura's Recreated] !
 
 - R32 KH2 Gun Grey Metallic
 
   - Metallic Low Flake -- 0.67 | 0.05 | 0.15 || 0.67 | 0.11 | 0.45
 
-> ! [Yura's Originals] !
+## ! [Yura's Originals] !
 
 - Old Taxi Yellow
 
@@ -3720,7 +3720,7 @@ This is an easy-access location to store all my favorite colors.
     - Teal & Purple: Two-Toned Polished -- 0.69 | 0.90 | 0.90 ||
       0.47 | 0.95 | 0.95 [Schuppan 962CR]
 
-! [Yura's Trademarked Liveries] !
+## ! [Yura's Trademarked Liveries] !
 
 - The Golden Boy
   - Trivia: This is a minimalist livery, originally born on the Temerario. This livery will look best on cars that are less curvy, like Lamborghinis, due to the style of the mask.
@@ -3767,7 +3767,7 @@ This is an easy-access location to store all my favorite colors.
 
   - Add the special Despair window paint.
 
-Forza Horizon 6 --- Tuning Guide (Road & Rally) by LuckyJumpx
+# Forza Horizon 6 --- Tuning Guide (Road & Rally) by LuckyJumpx
 
 [Yura's Note: Some parts were removed, mostly credits, and the Building
 part, because this guide is only meant to cover Tuning, not Building.]
