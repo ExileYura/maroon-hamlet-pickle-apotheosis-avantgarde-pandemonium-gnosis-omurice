@@ -52,7 +52,7 @@
     "prefix": "table",
     "body": [
       "<table>",
-      "<tr>\" \"<th>Category</th>\" \"<th>Item</th>\" \"<th>AWD</th>\" \"<th>RWD</th>\" \"</tr>",
+      "<tr>\" \"<th>one</th>\" \"<th>two</th>\" \"<th>three</th>\" \"<th>four</th>\" \"</tr>",
       "</table>"
     ]
   }

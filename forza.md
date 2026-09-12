@@ -1164,18 +1164,12 @@ Workflow:
 Building
 
 <table>
-<tr><td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td></tr>
+<td colspan="3">Never build drag cars to PI. Always bring out the maximum of each car.</td>
 <tr>
-<th>Category</th>
-<th>Item</th>
-<th>AWD</th>
-<th>RWD</th>
-</tr>
-<tr>
-<th>" "hey" "</th>
+<td>" "Bodykits and Conversions" "</td>
+<tr>" "aaa" "</tr>
 </tr>
 </table>
-
 
 
 - Information
