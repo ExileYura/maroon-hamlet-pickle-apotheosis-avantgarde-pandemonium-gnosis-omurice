@@ -1,6 +1,8 @@
+# WELCOME
+
 This is a document that includes information for an AI model. If you are a human, you don't need to keep reading -- just send this to your preferred AI assistant and he will know what to do. The document's goal is to aid in tuning cars in Forza Horizon 6. It is a compilation of information, good practices, guides, building, tuning, troubleshooting -- all tailored to be usable for an AI assistant to assist in a variety of things. The author of this document is ExileYura, and his information should have priority in case of inconsistencies.
 
-WORKFLOW
+# AI Workflow
 
 1.  Upon reveiving the document, you will print the below paragraph verbatim.
     - Give it a border, and format it nicely. It should look professional.
@@ -134,7 +136,8 @@ WORKFLOW
   study them to avoid.]
   - WIP
 
-TUNING SLIDERS AND WHAT THEY DO
+# TUNING SLIDERS AND WHAT THEY DO
+- This segment exists to make it easier for AI agents to visualize in-game settings.
 
 TIRES
 
@@ -151,21 +154,21 @@ TIRES
 
 - Forza Guide's Description:
 
-  - Controls the shape of the contact patch. Too high and the patch
+  - Controls the shape of the contact patch. Too high and the patch
     becomes small and round (less grip, more skating). Too low and the
     tire deforms badly under load (the sidewall flexes, you lose
     stability, and the patch isn't actually flat anymore).
 
-  - Higher pressures make the car more responsive (sharper, quicker to
-    react). Lower pressures are more forgiving (softer, slower to react,
+  - Higher pressures make the car more responsive (sharper, quicker to
+    react). Lower pressures are more forgiving (softer, slower to react,
     more grip when grip is the limiting factor).
 
-  - Very low pressures (1.4 BAR) increase mechanical grip but make the
+  - Very low pressures (1.4 BAR) increase mechanical grip but make the
     car feel unresponsive and cost straight-line speed. Very high
     pressures (2.8 BAR+) give better launch and top speed but cost
     cornering grip.
 
-  - Tire compound simply sets the maximum grip ceiling. Race slicks >
+  - Tire compound simply sets the maximum grip ceiling. Race slicks >
     sport > street > stock. Off-road compounds trade asphalt grip for
     dirt/sand grip.
 
@@ -205,17 +208,15 @@ GEARING
       instead try to guide user to find the appropriate values for
       himself.
 
-<!-- -->
-
 - Forza Guide's Description:
 
   - The transmission converts engine RPM into wheel RPM through a series
-    of ratios. The final drive is a single multiplier applied to all
+    of ratios. The final drive is a single multiplier applied to all
     gears --- it's the most useful single setting because it adjusts
     the whole spread up or down uniformly.
 
-  - Lower final drive (numerically smaller) = taller gears, higher top
-    speed, slower acceleration in each gear. Higher final drive =
+  - Lower final drive (numerically smaller) = taller gears, higher top
+    speed, slower acceleration in each gear. Higher final drive =
     shorter gears, more acceleration, lower top speed.
 
   - Individual gear ratios are best left alone unless you're tuning for
@@ -261,25 +262,23 @@ ALIGNMENT
 
     - ANGLE: low (1.0) <o===================xo> high (7.0)
 
-<!-- -->
-
 - Forza Guide's Description:
 
   - Camber
 
-    - If the tops of the tires lean inward (toward each other),
-      that's negative camber. Bottoms inward = positive camber. In
+    - If the tops of the tires lean inward (toward each other),
+      that's negative camber. Bottoms inward = positive camber. In
       Forza, you'll almost always want some negative camber.
 
-    - Here's why negative camber helps: when you turn, the car's body
+    - Here's why negative camber helps: when you turn, the car's body
       rolls and the outside tires tilt outward at the top. Without
       camber, they'd ride on their outer edges --- small contact patch,
       poor grip. Pre-leaning them inward (negative camber) cancels that
       rolling motion out: when the body rolls in a corner, the outside
-      tire ends up sitting flat on the road. Maximum contact patch
+      tire ends up sitting flat on the road. Maximum contact patch
       exactly when you need it.
 
-    - So why not just run maximum camber? Because when you're driving
+    - So why not just run maximum camber? Because when you're driving
       straight, the tires are now leaning on their inside edges. You
       lose acceleration grip, braking grip, and tire life. Camber is a
       trade --- corner grip for straight-line grip.
@@ -287,16 +286,16 @@ ALIGNMENT
   - Toe
 
     - Look down at your car from above. If the front edges of the tires
-      point toward each other, that's toe-in. Pointing outward =
+      point toward each other, that's toe-in. Pointing outward =
       toe-out. Adjustments are tiny --- tenths of a degree.
 
-    - Front toe-out sharpens turn-in for a brief moment, because in a
+    - Front toe-out sharpens turn-in for a brief moment, because in a
       turn the inside wheel travels a tighter radius than the outside,
-      and toe-out helps it turn more aggressively. Rear
-      toe-in stabilises the rear --- useful on high-power RWD cars that
+      and toe-out helps it turn more aggressively. Rear
+      toe-in stabilises the rear --- useful on high-power RWD cars that
       want to step out under throttle.
 
-    - The downside: any non-zero toe causes the tires to scrub when
+    - The downside: any non-zero toe causes the tires to scrub when
       driving straight (they're fighting each other), which costs top
       speed and increases wear.
 
@@ -304,11 +303,11 @@ ALIGNMENT
 
     - Look at your car from the side. The line through your front
       suspension's pivot points is tilted backward --- that backward
-      tilt is caster. It's the same thing that makes shopping-cart
+      tilt is caster. It's the same thing that makes shopping-cart
       wheels self-center.
 
     - More caster = more straight-line stability and the steering wheel
-      naturally returning to center. It also creates dynamic camber in
+      naturally returning to center. It also creates dynamic camber in
       turns: as you steer, the outside front tire gains negative camber
       automatically. That's why it can substitute for static camber
       when you need front grip.
@@ -330,19 +329,19 @@ ANTIROLL BARS
   - An anti-roll bar is a metal bar connecting the left and right wheels
     on the same axle. When the car turns, the outside wheel compresses
     its spring and the inside wheel extends --- the ARB twists,
-    resisting that motion. It forces the two sides to move together,
+    resisting that motion. It forces the two sides to move together,
     which makes the car stay flatter in turns.
 
-  - Think of an ARB as a spring that only activates in corners. It does
+  - Think of an ARB as a spring that only activates in corners. It does
     nothing on straights. It doesn't affect bumps if they hit both
     wheels equally. It only resists side-to-side roll.
 
   - Stiffer ARB on one end = that end loses grip
-    first. Counter-intuitive, but here's why: a stiffer ARB forces
+    first. Counter-intuitive, but here's why: a stiffer ARB forces
     weight onto the outside tire more aggressively, overloading it and
-    reducing its grip relative to the other end. So a stiffer front ARB
-    → understeer. Stiffer rear ARB → oversteer. This is why ARBs are
-    the primary tool for mid-corner balance.
+    reducing its grip relative to the other end. So a stiffer front ARB
+    → understeer. Stiffer rear ARB → oversteer. This is why ARBs are
+    the primary tool for mid-corner balance.
 
 - Yura's Comment: Low front high rear means more mechanical balance.
   Mechanical balance is what determines oversteer / understeer. This
@@ -379,24 +378,24 @@ SPRINGS
 
 - Forza Guide's Description:
 
-  - Each wheel is attached to the chassis through a spring. The spring
-    rate tells you how much force is needed to compress that spring by a
+  - Each wheel is attached to the chassis through a spring. The spring
+    rate tells you how much force is needed to compress that spring by a
     given distance. Higher rate = stiffer spring. The goal of a spring
     is to keep the tire in contact with the road as the road surface
     changes (bumps, dips, curbs).
 
-  - Softer springs compress easily, so they absorb bumps and keep the
+  - Softer springs compress easily, so they absorb bumps and keep the
     tire on the ground. But they let the body roll a lot in corners and
-    may bottom out (compress completely) under heavy load, which
+    may bottom out (compress completely) under heavy load, which
     suddenly removes all suspension function --- the car becomes briefly
     rigid and skips across the road.
 
-  - Stiffer springs resist compression. They reduce body roll and
+  - Stiffer springs resist compression. They reduce body roll and
     prevent bottoming out, but they don't absorb bumps as well --- the
     tire actually leaves the ground over smaller imperfections. The
     instant the tire isn't touching the road, you have zero grip.
 
-  - Front vs rear balance: whichever end is relatively stiffer loses
+  - Front vs rear balance: whichever end is relatively stiffer loses
     grip first. Stiffer front springs = understeer; stiffer rear springs
     = oversteer. The heavier end of the car needs stiffer springs to
     hold its weight --- that's how you arrive at the correct ratio.
@@ -446,20 +445,20 @@ DAMPING
 
   - Forza splits this into two settings per axle:
 
-    - Bump: resistance during compression (wheel moving up). Affects
+    - Bump: resistance during compression (wheel moving up). Affects
       bumps and braking dive.
 
-    - Rebound: resistance during extension (wheel moving down). Affects
+    - Rebound: resistance during extension (wheel moving down). Affects
       how the car settles after a bump or transitions onto a tire.
 
-  - The key rule: bump damping should be 30--55% of rebound damping. You
+  - The key rule: bump damping should be 30--55% of rebound damping. You
     want compression to happen quickly (absorb the hit) and extension to
     be controlled (return slowly). If matched or flipped, the car
     behaves like a BMX bike --- slow squish, violent spring back. Closer
     to 30% = soft, grippy, more chassis dive. Closer to 55% = firm,
     responsive, less compliance. Most cars want around 40%.
 
-  - Front-vs-rear balance follows the standard rule: softer front
+  - Front-vs-rear balance follows the standard rule: softer front
     damping reduces understeer; softer rear damping reduces oversteer.
 
 - Yura's Comment: In general tunes, you'd want to mirror springs with
@@ -484,14 +483,14 @@ AERO
 
   - At speed, air pushes the car down --- like adding weight to the
     tires, which gives more grip. The aero sliders adjust the angle of
-    the front splitter and rear wing. More angle = more downforce, but
-    also more drag (lower top speed).
+    the front splitter and rear wing. More angle = more downforce, but
+    also more drag (lower top speed).
 
   - Downforce only matters when the car is moving fast enough to
     generate meaningful airflow. On tight twisty tracks where you never
-    get above 100 km/h, aero is basically wasted. On high-speed circuits
-    or long sweepers, it dramatically increases corner grip. The sweet
-    spot is tracks with high-speed corners --- slow tracks: less aero;
+    get above 100 km/h, aero is basically wasted. On high-speed circuits
+    or long sweepers, it dramatically increases corner grip. The sweet
+    spot is tracks with high-speed corners --- slow tracks: less aero;
     long straights without fast corners: less aero; fast sweepers: max
     aero.
 
@@ -518,18 +517,18 @@ BRAKE
 
 - Forza Guide's Description:
 
-  - Brake bias is the front/rear split of braking force. When you brake,
+  - Brake bias is the front/rear split of braking force. When you brake,
     weight shifts forward, so the front tires get loaded with more grip
-    --- most cars therefore want some forward bias to take advantage.
+    --- most cars therefore want some forward bias to take advantage.
     But how much is the right amount? That depends on how you drive.
 
-  - Brake pressure is how much braking force is applied for a given
+  - Brake pressure is how much braking force is applied for a given
     trigger pull. Higher pressure = more braking force from less input
     (you stop faster but lock up more easily). Lower pressure = more
-    \"resolution\" --- you have more finely-tuned control before
+    "resolution" --- you have more finely-tuned control before
     locking.
 
-  - Locking up means the wheels stop rotating completely. Once locked, a
+  - Locking up means the wheels stop rotating completely. Once locked, a
     tire skids --- no grip, no steering. You want to brake right up to
     the threshold of locking without crossing it.
 
@@ -583,15 +582,15 @@ DIFFERENTIAL
 
   - When a car turns, the outside wheel travels a longer arc than the
     inside wheel --- they need to spin at different speeds.
-    A differential is the mechanism that lets them. The setting
-    controls how much difference is allowed.
+    A differential is the mechanism that lets them. The setting
+    controls how much difference is allowed.
 
-  - 0% = fully open. Each wheel spins completely independently. Great
+  - 0% = fully open. Each wheel spins completely independently. Great
     for low-grip steady-state cornering, but as soon as you apply power,
     all of it goes to whichever wheel has the least grip (usually the
     unloaded inside wheel) and spins it uselessly.
 
-  - 100% = fully locked. Both wheels are forced to spin at the same
+  - 100% = fully locked. Both wheels are forced to spin at the same
     rate. Maximum power transfer, but the car physically can't turn
     properly because the inside wheel wants to spin slower than the
     outside --- it scrubs, fighting the turn.
@@ -599,12 +598,12 @@ DIFFERENTIAL
   - The sweet spot is somewhere in between, and Forza splits it into two
     adjustments per axle:
 
-    - Acceleration: how locked the diff is under throttle. Higher = more
+    - Acceleration: how locked the diff is under throttle. Higher = more
       grip on exit, more oversteer tendency. Lower = more open, less
-      stable but more freedom to rotate. Only adjusts in 2% increments
+      stable but more freedom to rotate. Only adjusts in 2% increments
       --- use even numbers.
 
-    - Deceleration: how locked the diff is off-throttle (lifting or
+    - Deceleration: how locked the diff is off-throttle (lifting or
       braking). Higher = stable entry, less rotation. Lower = freer
       rotation on entry, easier to get the rear to step out on lift.
 
@@ -654,7 +653,7 @@ ExileYura's Mini Guides
   things up in menu order is usually not good practice, so list
   everything in the same order I did (will differ guide to guide).
 
-ExileYura's Perfect Gear Ratios Guide
+# ExileYura's Perfect Gear Ratios Guide
 
 - This is a special guide that helps an AI model calculate the perfect
   gear ratios via science and vibe.
@@ -727,8 +726,6 @@ Workflow:
   - drop% = desired RPM drop when upshifting (as a decimal, e.g. 25% =
     0.25). This is a dynamic value that changes with every shift (excpt.
     drag).
-
-  <!-- -->
 
   - This formula lets us calculate every gear by working backwards from
     the locked top gear.
@@ -988,7 +985,7 @@ Workflow:
 - Commit calculations and print ratio numbers so user can apply them.
   (Two decimal limit).
 
-Case Studies:
+## Case Studies:
 
 - This segment contains some actual cars that I tuned, broken down per
   principle. Do NOT use actual ratio numbers here, only observe the
@@ -3357,10 +3354,10 @@ This is an easy-access location to store all my favorite colors.
   - Two Toned Polished -- 0.00 | 0.62 | 0.20 || 0.60 | 1.00 | 0.28
 
   - History: Nissan's color-shift purple lineage started in 1995 as
-    \"Deep Metallic Purple\" (code LP2) on the R33 Skyline GT-R. In 1999
-    it evolved into \"Midnight Purple II\" (LV4) for the R34 GT-R
+    "Deep Metallic Purple" (code LP2) on the R33 Skyline GT-R. In 1999
+    it evolved into "Midnight Purple II" (LV4) for the R34 GT-R
     launch, adding stronger color-shift with a green-to-magenta flip.
-    \"Midnight Purple III\" (LX0) followed shortly after on a smaller
+    "Midnight Purple III" (LX0) followed shortly after on a smaller
     batch of R34 V-Spec cars, intensifying the chameleon effect further.
     It was discontinued in 2002 alongside the R34's end of production.
     Nissan revived modernized interpretations of the color on the R35
@@ -3377,7 +3374,7 @@ This is an easy-access location to store all my favorite colors.
     request. It is not 100% perfect, but as close as we can get to such
     a complex color.
 
-  - History: Part of TVR's \"Reflex\" range of color-shifting (flip)
+  - History: Part of TVR's "Reflex" range of color-shifting (flip)
     paints, alongside other TVR ranges like Spectraflair and Cascade.
     It's a mica/metallic-based finish that shifts hue depending on
     viewing angle and light --- commonly cited as shifting between
@@ -3445,8 +3442,8 @@ This is an easy-access location to store all my favorite colors.
     Gordon Bennett Cup, where UK entries raced in green after Britain
     hosted the event in Ireland. Aston Martin's own shade first
     appeared in 1922, and a pale metallic version called Almond Green
-    debuted in 1949. That heritage shade was renamed \"Aston Martin
-    Racing Green\" in 1999 to mark the 40th anniversary of Aston's Le
+    debuted in 1949. That heritage shade was renamed "Aston Martin
+    Racing Green" in 1999 to mark the 40th anniversary of Aston's Le
     Mans win. It became the brand's most popular color choice in 2024,
     tied to Aston's return to Formula 1.
 
@@ -3454,11 +3451,11 @@ This is an easy-access location to store all my favorite colors.
 
   - Metallic Low Flake -- 0.74 | 0.80 | 0.45 || 0.75 | 0.78 | 0.77
 
-  - History: One of Chrysler's \"High Impact\" colors, factory code
+  - History: One of Chrysler's "High Impact" colors, factory code
     FC7, released for 1970--71 on Dodge muscle cars like the Challenger
     and Charger. Plymouth used the identical paint under the name
-    \"In-Violet.\" A Chrysler paint developer reportedly wanted to call
-    it \"Statutory Grape\" before his boss made him rename it. It's
+    "In-Violet." A Chrysler paint developer reportedly wanted to call
+    it "Statutory Grape" before his boss made him rename it. It's
     been periodically revived on modern Challengers and Chargers since 2007.
 
 - Destroyer Gray (Dodge) [src: TGP -- The Gaming Painter | YouTube]
@@ -3501,7 +3498,7 @@ This is an easy-access location to store all my favorite colors.
   - Metallic Low Flake -- 0.50 | 0.09 | 0.04 || 0.62 | 0.12 | 0.33
 
   - Audi History: A metallic black with pearl effect (code L8L8),
-    distinct from plain \"Brilliant Black.\" It was Audi's premium
+    distinct from plain "Brilliant Black." It was Audi's premium
     black option until being phased out after the 2014 model year in
     favor of Mythos Black Metallic.
 
@@ -3530,7 +3527,7 @@ This is an easy-access location to store all my favorite colors.
 
   - Metallic -- 0.15 | 0.06 | 0.73 || 0.13 | 0.02 | 0.89
 
-  - History: Nissan \"Pearl White\" (code QAB) is a tricoat factory
+  - History: Nissan "Pearl White" (code QAB) is a tricoat factory
     color used on the 370Z from 2009-2020, including NISMO, Heritage,
     and 50th Anniversary editions.
 
@@ -3539,10 +3536,10 @@ This is an easy-access location to store all my favorite colors.
   - Metallic Low Flake -- 0.62 | 0.88 | 0.40 || 0.61 | 0.82 | 0.64
 
   - History: Code LW5Z/L95A. First appeared on the 1997 Mk3 GTI
-    \"Driver's Edition\" (limited run, rumored around 200 units), then
+    "Driver's Edition" (limited run, rumored around 200 units), then
     returned on the Mk4 GTI 20th Anniversary Edition (2002, 4,000 units
     across all colors), and again in 2019 as part of VW's 40-color Golf
-    R \"Spektrum\" special-order program, which paid homage to historic
+    R "Spektrum" special-order program, which paid homage to historic
     VW colors.
 
 - Kasumi Green / Mint White (Datsun) [src: TGP -- The Gaming Painter |
@@ -3558,7 +3555,7 @@ This is an easy-access location to store all my favorite colors.
 
   - Gloss -- 0.00 | 0.96 | 0.22
 
-  - History: Matches \"Grand Prix Maroon,\" one of only three body
+  - History: Matches "Grand Prix Maroon," one of only three body
     colors offered on the 240ZG (Fairlady Z432R), a homologation-special
     export of the 240Z sold only in Japan from October 1971 to qualify
     for Group 4 racing.
@@ -3567,9 +3564,9 @@ This is an easy-access location to store all my favorite colors.
 
   - Gloss -- 0.24 | 0.27 | 0.38
 
-  - History: Fits the general \"Racing Green\"/olive-green family used
-    on 240Z variants (factory code 907, \"Racing Green,\" through 1971,
-    later replaced by metallic greens like 113 \"Leaf Green\"). No
+  - History: Fits the general "Racing Green"/olive-green family used
+    on 240Z variants (factory code 907, "Racing Green," through 1971,
+    later replaced by metallic greens like 113 "Leaf Green"). No
     dedicated brand story beyond being one of the original launch
     colors.
 
@@ -3939,9 +3936,9 @@ What the sources say --- width:
 - Front width --- majority says do it.
   [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) calls it one
   of two FH6 meta shifts; [forza.guide](https://forza.guide) and
-  [Game8](https://game8.co) say \"often 1--2 notches worth it\";
+  [Game8](https://game8.co) say "often 1--2 notches worth it";
   [Gustingorriz](https://www.youtube.com/watch?v=Mx41G0Z-T1g)'s Evo
-  build calls it a \"big AWD gain, small PI\"; the worked S1 RWD ([Polbe
+  build calls it a "big AWD gain, small PI"; the worked S1 RWD ([Polbe
   Racing](https://www.youtube.com/watch?v=uUZgy3nfEHY)), budget MR2
   ([Schaddn Assorted](https://www.youtube.com/watch?v=eXYyXsjrQZk)) and
   rally ([CRILLA18](https://www.youtube.com/watch?v=r7wGs4xftHM)) builds
@@ -3977,7 +3974,7 @@ Rally tire choice (off-road vs rally compound):
   [CRILLA18](https://www.youtube.com/watch?v=r7wGs4xftHM)'s rally build
   chose off-road to stay in class, and
   [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) calls
-  off-road tires \"dominant for rally events.\"
+  off-road tires "dominant for rally events."
 
 - Rally compound is grippier on tarmac --- choose it only if you
   want that road grip and can afford the PI/class bump.
@@ -4033,12 +4030,12 @@ What it does:
 What the sources say:
 
 - The most consistently praised upgrade across creators, tested builds
-  and tuning sites --- \"the universal best upgrade,\" most
+  and tuning sites --- "the universal best upgrade," most
   PI-efficient.
 
 - [MitchCactus](https://www.youtube.com/watch?v=IK6JLM9ZbHk) frames
-  weight reduction as \"the most important upgrade in the entire
-  upgrades menu.\"
+  weight reduction as "the most important upgrade in the entire
+  upgrades menu."
 
 - Caution ([Andi
   Knight](https://www.youtube.com/watch?v=v38hmxlC7Js)): too light +
@@ -4201,8 +4198,8 @@ What the sources say:
   anti-lag shifts the power band earlier.
 
 - [JoyShift](https://www.youtube.com/watch?v=QECdJ_cFZbc) on engine
-  swap weight balance: \"too much front = pushes wide/won't turn; too
-  much rear = traction but snappier.\" Mind the weight when picking a
+  swap weight balance: "too much front = pushes wide/won't turn; too
+  much rear = traction but snappier." Mind the weight when picking a
   swap.
 
 - [MitchCactus](https://www.youtube.com/watch?v=IK6JLM9ZbHk) on engine
@@ -4398,7 +4395,7 @@ Good vs bad weight distribution:
 - Too rear-heavy → more rear traction but snappier /
   oversteer-prone.
 
-- So \"bad\" = far from 50/50 either way; \"good\" = near 50/50. Engine
+- So "bad" = far from 50/50 either way; "good" = near 50/50. Engine
   swaps and chassis reinforcement move it --- watch the number when you
   swap engines.
 
@@ -4434,17 +4431,17 @@ What changes off-road:
 - Aero: helps off-road (downforce into bumpy gravel) but optional.
 
 - Don't tune around big jumps: [HokiHoshi (FH5
-  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _\"Any normal
+  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _"Any normal
   rally car would blow its struts on jumps like this --- if you tune
   your car to take big jumps better, you'll sacrifice handling
-  elsewhere.\"_ Take big jumps as they come; only adjust for small bumps
+  elsewhere."_ Take big jumps as they come; only adjust for small bumps
   that throw the car off after impact. _FH5 source --- physics may
   differ in FH6._
 
 - ARB philosophy for rally: [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) keeps ARBs soft
-  both ends for rally --- _\"you want left and right suspension to
-  move more independently to keep wheels on the ground\"_ over bumps.
+  both ends for rally --- _"you want left and right suspension to
+  move more independently to keep wheels on the ground"_ over bumps.
   Use spring stiffness and damping for over/understeer balance instead
   of ARB. _FH5 --- principle may carry but verify in FH6._
 
@@ -4454,16 +4451,16 @@ What changes off-road:
   the car is just above bottoming out under load. _FH5 numbers ---
   verify ranges in FH6._
 
-- Conflict on flywheel: the \"sport flywheel, not race\" guidance
+- Conflict on flywheel: the "sport flywheel, not race" guidance
   above comes from FH6 sources; [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) just says
-  \"flywheel upgrade is higher priority in rally\" without specifying
+  "flywheel upgrade is higher priority in rally" without specifying
   tier. Possibly compatible (sport is still an upgrade), but worth
   knowing the sources don't fully match.
 
 - RWD viability in lower classes: [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) calls RWD
-  _\"viable in A class and below\"_ for rally in FH5 due to
+  _"viable in A class and below"_ for rally in FH5 due to
   tire/suspension physics changes that benefit rear-driven cars
   off-road. No FH6 creator confirms or denies this --- worth testing if
   you want to try a RWD rally build.
@@ -4567,8 +4564,8 @@ brakes minimum.
 Lazy turn-in (front Turn-in 1. Soften front
 understeer) ARB. 2. Raise
 caster for most cars
-_(some \"boat /
-lumbering\" cars want
+_(some "boat /
+lumbering" cars want
 caster LOWERED instead
 --- car-dependent)_.
 3. More front
@@ -4737,8 +4734,8 @@ What the sources say:
   (~28--32 psi / 1.9--2.2 bar).
 
 - [HokiHoshi (FH5 rally)](https://www.youtube.com/watch?v=UzInaOtv6e8)
-  gives an explicit ceiling: _\"Don't raise off-road race tires above
-  ~20 PSI / 1.4 bar or they'll lose their off-road grip.\"_ Aligns
+  gives an explicit ceiling: _"Don't raise off-road race tires above
+  ~20 PSI / 1.4 bar or they'll lose their off-road grip."_ Aligns
   with Andi Knight's 1.0--1.2 bar floor for off-road. _FH5 source;
   matches FH6 ranges._
 
@@ -4809,7 +4806,7 @@ What final drive actually does:
   moving FD shifts every gear proportionally, so you can adjust overall
   character without re-tuning each ratio.
 
-- There's no magic FD number in Horizon. The \"6.10\" some players
+- There's no magic FD number in Horizon. The "6.10" some players
   use in Motorsport is a Motorsport-specific quirk (smoother behavior
   over bumps / rev-limiter sticking) --- it doesn't carry over. Start
   at the default and adjust.
@@ -4836,7 +4833,7 @@ What the sources say about the workflow:
   that peak near the limiter (his Huracán example, ~8.5--9k rpm):
   don't short-shift, ride each gear to redline; he lengthens 1st
   specifically so it doesn't kiss the limiter off the line. His motto:
-  gearbox \"as short as possible, as long as needed.\"
+  gearbox "as short as possible, as long as needed."
 
 - [Eckinox](https://www.youtube.com/watch?v=LOvZ4RJLPQo) on power
   curve shape: a smooth atmospheric curve lets you floor it out of
@@ -4900,8 +4897,8 @@ principle below to find your car's actual launch gear.
 3.  Set 1st as a launch gear that fits your car. This is
     car/class/power-dependent.
     [rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c)'s principle:
-    \"lower gears longer to reduce RWD wheelspin, shorter to help
-    low-power launch.\" The goal is a clean launch --- the car gets up
+    "lower gears longer to reduce RWD wheelspin, shorter to help
+    low-power launch." The goal is a clean launch --- the car gets up
     to speed without (a) immediately hitting the limiter / wheelspinning
     (1st too short) or (b) bogging because it can't pull (1st too
     long). Direction by car:
@@ -4909,7 +4906,7 @@ principle below to find your car's actual launch gear.
     - High-power RWD/AWD (S1/S2 supercars, JohnsonRacing's Huracán,
       Griffin's M6 GT2): lengthen 1st so it doesn't smash the
       limiter off the line. Griffin's ~60 mph and JohnsonRacing's
-      \"lengthen 1st\" calls live here.
+      "lengthen 1st" calls live here.
 
     - Lower-power / lower-class cars (B/C/D, lighter A): shorten
       1st so the car actually launches without bogging. Specific mph
@@ -4933,8 +4930,8 @@ principle below to find your car's actual launch gear.
 
 6.  Distribute 3rd, 4th, 5th evenly between 2nd and 6th as a
     starting baseline. [Andi
-    Knight](https://www.youtube.com/watch?v=v38hmxlC7Js): \"first gears
-    longer than last; staircase curve\" --- each successive gear shorter
+    Knight](https://www.youtube.com/watch?v=v38hmxlC7Js): "first gears
+    longer than last; staircase curve" --- each successive gear shorter
     than the previous in _ratio_ terms (steeper at the top end).
 
 7.  Telemetry-tune on track. For each commonly used gear, watch HP
@@ -5018,13 +5015,13 @@ What the sources say:
   car wants less camber than default.
 
 - [JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM) on
-  speed-dependent rear camber: \"Less rear camber → more traction out
+  speed-dependent rear camber: "Less rear camber → more traction out
   of slow corners but instability in fast/long turns. Rear camber is
   also a tool for understeer --- can even run rear slightly more neg
-  than front.\"
+  than front."
 
 - Reddit users confirm letting the outer tire touch ~0° mid-corner is
-  \"wrong in real life but the grip trick in Forza.\"
+  "wrong in real life but the grip trick in Forza."
 
 - Dissenters: [Kingdom
   Twelve](https://www.youtube.com/watch?v=ktzaVDFVSRU) runs high
@@ -5115,8 +5112,8 @@ Impacts:
 
 What the sources say --- strong consensus to keep toe near zero:
 
-- [forza.guide](https://forza.guide) is the most direct: \"in Forza
-  Horizon, leave toe at zero\" --- less predictable than Motorsport.
+- [forza.guide](https://forza.guide) is the most direct: "in Forza
+  Horizon, leave toe at zero" --- less predictable than Motorsport.
 
 - Most sources agree on the default: [Grindout](https://grindout.com),
   [Sportskeeda](https://sportskeeda.com),
@@ -5124,15 +5121,15 @@ What the sources say --- strong consensus to keep toe near zero:
   [MaxLevelGG](https://www.maxlevelgg.com/news/complete-forza-horizon-six-tuning-guide-tires-brakes-and-other-mechanics-explained/),
   [Destructoid](https://destructoid.com),
   [JoyShift](https://www.youtube.com/watch?v=QECdJ_cFZbc),
-  [rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c) --- all \"keep
-  near 0, use sparingly.\"
+  [rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c) --- all "keep
+  near 0, use sparingly."
 
 - [Raceboy77](https://www.youtube.com/watch?v=BfoNrIbj6N8): toe at 0,
   caster maxed.
 
 - [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) and [Andi
-  Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo): \"do toe last,
-  as a last resort.\"
+  Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo): "do toe last,
+  as a last resort."
 
 - [Andi Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo) caps it at
   ±0.2° and calls it low-impact.
@@ -5143,8 +5140,8 @@ What the sources say --- strong consensus to keep toe near zero:
   toe both ends.
 
 - [Polbe Racing](https://www.youtube.com/watch?v=uUZgy3nfEHY)'s
-  high-power S13 RWD build used \"massive toe-in for stability ---
-  else hairpins become a driftfest.\" Particularly relevant for
+  high-power S13 RWD build used "massive toe-in for stability ---
+  else hairpins become a driftfest." Particularly relevant for
   high-power RWD on tight corners.
 
 - Rally worked example: [HokiHoshi's FH5 rally
@@ -5172,7 +5169,7 @@ Specific values when sources do use toe:
   build: 0.2° out front / 0.2° in rear.
 
 - Reddit users note a Forza exploit where larger values (0.6° front /
-  0.4° rear) still \"work\" to game the physics --- an aggressive
+  0.4° rear) still "work" to game the physics --- an aggressive
   option, not a default.
 
 How to test it / what to look for:
@@ -5226,7 +5223,7 @@ What the sources say:
 
 - Rally: [Andi
   Knight](https://www.youtube.com/watch?v=MBDQGTAAqu0)'s rally guide
-  runs 4.5--5° (\"max is never sensible in rally\");
+  runs 4.5--5° ("max is never sensible in rally");
   [CRILLA18](https://www.youtube.com/watch?v=r7wGs4xftHM)'s rally build
   used 7° --- a real split.
 
@@ -5290,7 +5287,7 @@ What the sources say:
   run 1 F / 65 R ARBs.
 
 - [CRILLA18 (touge)](https://www.youtube.com/watch?v=VOeTRQlBTKg)
-  recommends ARBs \"as stiff as possible\" for touge to maximize
+  recommends ARBs "as stiff as possible" for touge to maximize
   stability through tight switchbacks. One creator's touge-specific
   opinion --- not a road-racing rule.
 
@@ -5335,7 +5332,7 @@ How to test it / what to look for:
 Quick fixes:
 
 - Front understeer (lazy turn-in OR mid-corner) → soften front ARB.
-  Kingdom Twelve: \"softer front = more turn-in/grip\"; JohnsonRacing
+  Kingdom Twelve: "softer front = more turn-in/grip"; JohnsonRacing
   and Raceboy77 both start from 1 front / 65 rear (extremes were meta in
   FH5, unclear if still the case for FH6 but can be a starting point for
   now).
@@ -5404,7 +5401,7 @@ What the sources say:
   (lighter end loses spring, heavier gains).
 
 - Lean soft overall --- softer springs let tires follow asphalt
-  instead of bouncing. \"Soft is fast\" is the common phrase across
+  instead of bouncing. "Soft is fast" is the common phrase across
   sources.
 
 - The old soft-front / stiff-rear habit now hurts turn-in under
@@ -5418,7 +5415,7 @@ What the sources say:
   trade direction).
 
 - [Kingdom Twelve](https://www.youtube.com/watch?v=ktzaVDFVSRU) runs
-  full soft on most cars (\"9/10 times full soft just works\"); Reddit
+  full soft on most cars ("9/10 times full soft just works"); Reddit
   users note you can run stiffer/higher springs in FH6 than in past
   games.
 
@@ -5501,7 +5498,7 @@ What the sources say:
 
 - [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) reports in
   FH5 the quickest setups often ran lifted race suspension (the gap
-  to low has closed in FH6 but it's \"still somewhat true\").
+  to low has closed in FH6 but it's "still somewhat true").
 
 - Reddit users now run between minimum and half.
 
@@ -5514,7 +5511,7 @@ What the sources say:
   near stock height.
 
 - [MitchCactus](https://www.youtube.com/watch?v=utrh8qJe0ks) sides with
-  the \"max it out\" school, noting it's what the fastest
+  the "max it out" school, noting it's what the fastest
   configurations have used historically. Lower can work for rotation but
   adds instability.
 
@@ -5537,7 +5534,7 @@ What the sources say:
   inches on lightweight rally cars as the sweet spot. Tuning method:
   start high, lower in small increments until just before bottoming out
   under load. Stiffer springs can help prevent bottoming if you want to
-  run lower. _FH5 numbers; verify range in FH6._ Ran 6.5\" F / 6.1\"
+  run lower. _FH5 numbers; verify range in FH6._ Ran 6.5" F / 6.1"
   R --- slight front-up rake, these were max height options for the
   car on F and R, still close to the 5--6 inches range.
 
@@ -5606,13 +5603,13 @@ What the sources say:
   Corvette](https://www.youtube.com/watch?v=1lC9hSgGNeA) ran rebound
   7.5 F / 11.5 R, bump 3.1 F / 4.7 R; the
   [McLaren](https://www.youtube.com/watch?v=6hQpn_pjS5o) ran rebound
-  10 F / 10 R, bump 3 F / 3 R. Both stay under the \"bump ≤ 50% of
-  rebound\" rule.
+  10 F / 10 R, bump 3 F / 3 R. Both stay under the "bump ≤ 50% of
+  rebound" rule.
 
 - Bump-to-rebound ratio: [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) gives a hard rule
-  --- _\"don't push bump stiffness above ~50% of rebound value, or the
-  suspension won't absorb bumps and the car will feel skittish.\"_
+  --- _"don't push bump stiffness above ~50% of rebound value, or the
+  suspension won't absorb bumps and the car will feel skittish."_
   Applies to both ends. Ran rebound 10.8 F / 6.4 R, bump 2.4 F / 1.5
   R _FH5 --- likely transfers as a physics principle, but verify._
 
@@ -5672,8 +5669,8 @@ What the sources say --- front vs rear balance:
   The disagreement is what to do with rear.
 
 - [Andi Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo) on F/R
-  aero ratio: \"F/R ratio must be right (too much front = fast-corner
-  oversteer; too much rear = understeer).\"
+  aero ratio: "F/R ratio must be right (too much front = fast-corner
+  oversteer; too much rear = understeer)."
 
 - [MitchCactus](https://www.youtube.com/watch?v=utrh8qJe0ks) targets
   Aero Balance 0.4--0.45, matching the established meta. Both
@@ -5690,8 +5687,8 @@ What the sources say --- front vs rear balance:
   a road-racing default.
 
 - Rally aero priority: [HokiHoshi (FH5
-  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _\"Front aero is
-  often more important than rear in rally\"_ --- front responsiveness
+  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _"Front aero is
+  often more important than rear in rally"_ --- front responsiveness
   and on-paved cornering grip matter more than rear stability at the
   lower speeds rally typically sees. Note this is FH5 advice; the FH6
   road aero meta (front/rear balance ~0.40--0.45) is documented
@@ -5716,7 +5713,7 @@ On maxing both vs maxing front and tuning rear:
   so much you bleed straight-line time.
 
 - [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) says the old
-  FH \"max front / min rear\" trick is now beaten by balancing for
+  FH "max front / min rear" trick is now beaten by balancing for
   stability + drag.
 
 Track and class considerations:
@@ -5738,16 +5735,16 @@ How to test it / what to look for:
 
 - Watch the lateral-G readout to confirm aero is helping.
 
-About lateral Gs. Lateral G isn't a separate \"stat that affects
-grip\" --- it's a measurement of how much cornering force the car
+About lateral Gs. Lateral G isn't a separate "stat that affects
+grip" --- it's a measurement of how much cornering force the car
 is producing (cornering force ÷ weight). Higher lateral G in a corner =
 the car is generating more grip there. The ceiling is set by tires +
 weight; aero raises it at speed (downforce loads the tires). Sources
 use it as a fitness metric:
 [JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM) judges cars
-by \"power-to-weight and lateral Gs\"; [Schaddn
+by "power-to-weight and lateral Gs"; [Schaddn
 Assorted](https://www.youtube.com/watch?v=eXYyXsjrQZk) picked his MR2's
-tire compound \"by best lateral-G per PI.\" Practically: watch the
+tire compound "by best lateral-G per PI." Practically: watch the
 G-meter through a corner; if a change raises peak lateral G without
 losing time on the straights, keep it.
 
@@ -5784,7 +5781,7 @@ Impacts:
 What the sources say:
 
 - The FH6 brake-bias text is fixed --- This was reversed in FH5 but
-  now \"toward Front\" genuinely means front bias.
+  now "toward Front" genuinely means front bias.
 
 - Direction agreed: forward = stable, rearward = livelier.
   [JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM)'s
@@ -5794,11 +5791,11 @@ What the sources say:
 
   - [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) +
     [forza.guide](https://forza.guide) +
-    [ForzaTune](https://forzatune.com): \"leave 100% mostly, raise for
-    sharper braking.\"
+    [ForzaTune](https://forzatune.com): "leave 100% mostly, raise for
+    sharper braking."
 
   - [Andi Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo):
-    \"never gone below 100%, usually 100--135% (≤130 typical).\"
+    "never gone below 100%, usually 100--135% (≤130 typical)."
 
   - [Sportskeeda](https://sportskeeda.com)'s preset table runs
     100--120% across most road builds (e.g. AWD Balanced 105--115%, RWD
@@ -5904,7 +5901,7 @@ What the sources say:
   [Raceboy77](https://www.youtube.com/watch?v=BfoNrIbj6N8) starts at
   100% accel with a high rear center.
 
-- ⚠ The AWD front-accel split: \"front 25/0\" comes from
+- ⚠ The AWD front-accel split: "front 25/0" comes from
   [ForzaFire](https://www.forzafire.com/guides/forza-horizon-6-drivetrain-tuning-guide)'s
   drivetrain guide and
   [CRILLA18](https://www.youtube.com/watch?v=r7wGs4xftHM)'s rally build
@@ -5965,15 +5962,15 @@ What the sources say:
 
 - Rally diff troubleshooting: [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) on mid-corner
-  oversteer in rally → _\"lower front acceleration diff lock and bring
-  center diff closer to 50%.\"_ Off-power oversteer → _\"increase front
-  tire pressure and damping.\"_ _FH5 fixes; principles likely carry._
+  oversteer in rally → _"lower front acceleration diff lock and bring
+  center diff closer to 50%."_ Off-power oversteer → _"increase front
+  tire pressure and damping."_ _FH5 fixes; principles likely carry._
 
 How to test it / what to look for:
 
 - Exit pushes wide on throttle → adjust accel to your input (lower on
   controller; wheel users may go the other way) --- find where it
-  \"hooks\" and drives off the corner cleanly.
+  "hooks" and drives off the corner cleanly.
 
 - Won't rotate on entry → lower decel; twitchy entry → raise decel.
 
@@ -5988,26 +5985,26 @@ Quick fixes:
 
 - Power oversteer / RWD snap on throttle / wheelspin on exit → lower
   accel diff ([Polbe
-  Racing](https://www.youtube.com/watch?v=uUZgy3nfEHY)'s S13: \"diff
-  conservative --- more lock breaks traction\";
-  [rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): \"both wheels
-  breaking loose → too high\").
+  Racing](https://www.youtube.com/watch?v=uUZgy3nfEHY)'s S13: "diff
+  conservative --- more lock breaks traction";
+  [rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): "both wheels
+  breaking loose → too high").
 
 - Won't rotate on entry / lazy turn-in → lower decel
-  ([JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM): \"lower
-  = better rotation off the brakes\").
+  ([JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM): "lower
+  = better rotation off the brakes").
 
 - Lift-off / trail-brake oversteer → raise decel
-  ([rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): \"more lock
-  counteracts lift-off oversteer; too high won't rotate in\").
+  ([rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): "more lock
+  counteracts lift-off oversteer; too high won't rotate in").
 
 - AWD pushes wide → more rear center bias
   ([JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM)'s
   Huracán: 84% rear).
 
 - One wheel spinning (open-diff peel) → _raise_ lock
-  ([rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): \"power going
-  to one wheel → increase lock\").
+  ([rAiiPXH](https://www.youtube.com/watch?v=MMTn1-Bed7c): "power going
+  to one wheel → increase lock").
 
 Start here: _(AWD values assume controller --- flip the accel/decel
 emphasis on a wheel)_
@@ -6035,14 +6032,14 @@ Rally --- AWD Front 25/0 · Rear Front 25/0 · Rear
 PART 3 --- Rally: what's different
 
 _Rally-specific values, worked-build examples, and per-setting notes
-live in each §2.X section's \"What the sources say\" bullets and the
+live in each §2.X section's "What the sources say" bullets and the
 Rally row of each Start here table. This Part 3 is the build/mindset
 summary; Part 2 is the per-setting detail._
 
-- HokiHoshi (FH5 rally) frames the core difference: _\"In road
+- HokiHoshi (FH5 rally) frames the core difference: _"In road
   racing you always want to maintain full grip --- that's the fastest
   way around a corner. But in rally, it's often faster to promote some
-  controlled oversteer and kick the rear end out a bit.\"_ This is the
+  controlled oversteer and kick the rear end out a bit."_ This is the
   principle behind rally's softer ARBs, more aggressive toe,
   rear-biased diffs, and oversteer-tolerant setups.
 
@@ -6138,9 +6135,9 @@ The genuinely unsettled calls --- test these yourself.
   widebody RWD. _Extreme track tunes may favor max front and rear._
 
 - Aero target / max-front: 0.40--0.45 (most) vs 0.50
-  ([ForzaTune](https://forzatune.com)); \"still max front\"
+  ([ForzaTune](https://forzatune.com)); "still max front"
   ([JohnsonRacing](https://www.youtube.com/watch?v=hX3pmSJ-oqM)) vs
-  \"balance beats max-front\"
+  "balance beats max-front"
   ([HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso)).
 
 - ARB method: max-both-then-soften vs 1/65 vs full-soft vs
@@ -6163,7 +6160,7 @@ The genuinely unsettled calls --- test these yourself.
 
 - Front tire width --- rally specifically: [HokiHoshi (FH5
   rally)](https://www.youtube.com/watch?v=UzInaOtv6e8) says front width
-  is _\"often NOT necessary\"_ for rally --- only upgrade if you're
+  is _"often NOT necessary"_ for rally --- only upgrade if you're
   struggling with on-road understeer in mixed-surface events.
   [CRILLA18](https://www.youtube.com/watch?v=r7wGs4xftHM)'s FH6 worked
   rally build maxes front width. [Andi
@@ -6173,12 +6170,12 @@ The genuinely unsettled calls --- test these yourself.
   dissent --- verify._
 
 - Transmission for rally --- 6-speed or 7-speed? [HokiHoshi (FH5
-  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _\"6-speed is
+  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _"6-speed is
   the sweet spot for most all-rally setups; 7-speed only if you keep
-  falling out of your power band.\"_ [Andi
-  Knight](https://www.youtube.com/watch?v=MBDQGTAAqu0) (FH6): _\"7-speed
+  falling out of your power band."_ [Andi
+  Knight](https://www.youtube.com/watch?v=MBDQGTAAqu0) (FH6): _"7-speed
   never wrong; 6-speed for high power / longer gears, 8-speed for
-  short-shifting.\"_ Game-version timing makes this hard to fully
+  short-shifting."_ Game-version timing makes this hard to fully
   resolve. _FH5 vs FH6 conflict._
 
 - S1+ Road aero strategy --- two positions: 1. Max F / low-to-min R
@@ -6186,17 +6183,17 @@ The genuinely unsettled calls --- test these yourself.
   Huracán, both [LetzeLu](https://www.youtube.com/watch?v=1lC9hSgGNeA)
   S1 V10 builds 2. Balance to 0.40--0.45 ---
   [HokiHoshi](https://www.youtube.com/watch?v=I9bUB3mcqso) says
-  max-front/min-rear is \"out\" in FH6;
+  max-front/min-rear is "out" in FH6;
   [MitchCactus](https://www.youtube.com/watch?v=utrh8qJe0ks) and [Andi
   Knight](https://www.youtube.com/watch?v=WiDVlZ_cDOo) target this range
 
 - Rally weight reduction: [HokiHoshi (FH5
-  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _\"Take max
+  rally)](https://www.youtube.com/watch?v=UzInaOtv6e8): _"Take max
   weight reduction if you can afford it --- rally cars benefit massively
-  from being light.\"_ [Andi
+  from being light."_ [Andi
   Knight](https://www.youtube.com/watch?v=MBDQGTAAqu0) (FH6): ⚠
-  _\"don't go too light --- less vehicle weight = less downforce into
-  bumpy gravel = lose ground contact = lose speed.\"_ The FH6 sources
+  _"don't go too light --- less vehicle weight = less downforce into
+  bumpy gravel = lose ground contact = lose speed."_ The FH6 sources
   lean toward Andi Knight's caution; HokiHoshi's FH5 advice may have
   aged out with physics changes.
 
